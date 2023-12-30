@@ -557,6 +557,11 @@
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/wood,
 /area/centcom/interlink)
+"eN" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "eQ" = (
 /obj/structure/railing,
 /obj/structure/transport/linear/public,
@@ -817,6 +822,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
+"ht" = (
+/obj/machinery/vending/access/debug,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "hu" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 4
@@ -1170,6 +1179,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"kL" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "kM" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -1470,6 +1486,11 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"nW" = (
+/obj/structure/table,
+/obj/item/modular_computer/debug,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "nZ" = (
 /obj/structure/hoop/minigame{
 	dir = 1
@@ -2314,6 +2335,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet,
 /area/station/service/cafeteria)
+"wm" = (
+/obj/structure/table,
+/obj/machinery/computer/libraryconsole/admin_only_do_not_map_in_you_fucker,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "wq" = (
 /turf/closed/wall,
 /area/station/medical/morgue)
@@ -2358,6 +2384,13 @@
 /obj/effect/turf_decal/siding/thinplating_new,
 /turf/open/floor/stone,
 /area/centcom/interlink)
+"wS" = (
+/obj/structure/table,
+/obj/item/disk/data/debug,
+/obj/item/disk/surgery/debug,
+/obj/item/disk/tech_disk/debug,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "wV" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341";
@@ -2420,6 +2453,15 @@
 /area/station/medical)
 "xx" = (
 /obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/engineering/main)
+"xz" = (
+/obj/structure/table,
+/obj/item/debug/omnitool,
+/obj/item/gun/magic/wand/death/debug,
+/obj/item/gun/magic/wand/resurrection/debug,
+/obj/item/gun/magic/wand/safety/debug,
+/obj/item/storage/box/debugtools,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "xD" = (
@@ -3211,7 +3253,8 @@
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "Gj" = (
-/obj/machinery/suit_storage_unit/ce,
+/obj/machinery/power/rtg/debug,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "Gp" = (
@@ -3696,6 +3739,12 @@
 	},
 /turf/open/floor/stone,
 /area/centcom/interlink)
+"Ll" = (
+/obj/structure/chair,
+/obj/item/storage/belt/utility/chief/full/debug,
+/obj/item/mod/control/pre_equipped/contractor/upgraded/adminbus,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "Lp" = (
 /obj/structure/railing,
 /turf/open/floor/iron,
@@ -3983,6 +4032,14 @@
 /obj/structure/toiletbong,
 /turf/open/floor/iron/white/small,
 /area/centcom/interlink)
+"Oj" = (
+/obj/projectile/magic/locker,
+/obj/item/clothing/shoes/combat/debug,
+/obj/item/clothing/suit/armor/vest/debug,
+/obj/item/mod/control/pre_equipped/debug,
+/obj/item/clothing/under/misc/adminsuit,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "Oo" = (
 /obj/structure/railing/corner/end/flip,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
@@ -4116,7 +4173,7 @@
 /area/centcom/interlink)
 "Pe" = (
 /turf/open/genturf,
-/area/icemoon/underground/unexplored/no_rivers)
+/area/mine/planetgeneration)
 "Pf" = (
 /turf/closed/mineral/earth_like,
 /area/station/asteroid)
@@ -35281,9 +35338,9 @@ GA
 GA
 GA
 Qy
-aV
-aV
-aV
+Oj
+Oj
+Qy
 Gj
 DD
 Qy
@@ -35427,11 +35484,11 @@ GA
 GA
 GA
 Qy
-aV
-aV
+Ll
 aV
 aV
 xx
+kL
 aV
 xx
 Qy
@@ -35573,9 +35630,9 @@ GA
 GA
 GA
 Qy
+wS
 aV
-aV
-aV
+Qy
 aV
 xx
 aV
@@ -35719,10 +35776,10 @@ GA
 GA
 GA
 Qy
+nW
 aV
-aV
-aV
-aV
+eN
+xx
 fc
 xx
 xx
@@ -35865,10 +35922,10 @@ GA
 GA
 GA
 Qy
-aV
-aV
-aV
-aV
+xz
+wm
+eN
+ht
 Qy
 HZ
 aV
