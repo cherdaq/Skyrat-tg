@@ -364,9 +364,7 @@
 /turf/open/floor/iron/grimy,
 /area/station/service/library/lounge)
 "dl" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Lounge"
-	},
+/obj/structure/mineral_door/wood,
 /turf/open/floor/iron/grimy,
 /area/station/service/library/lounge)
 "do" = (
@@ -394,10 +392,10 @@
 /turf/open/openspace,
 /area/centcom/interlink)
 "dv" = (
-/obj/structure/railing/corner{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/turf/open/floor/wood/parquet,
+/turf/open/floor/wood/large,
 /area/station/service/library)
 "dx" = (
 /obj/machinery/portable_atmospherics/canister/water_vapor,
@@ -703,10 +701,7 @@
 /turf/open/floor/iron/textured_large,
 /area/centcom/interlink)
 "gk" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/carpet,
+/turf/open/floor/wood/large,
 /area/station/service/library)
 "gm" = (
 /turf/open/floor/plating,
@@ -921,11 +916,13 @@
 /turf/open/floor/stone,
 /area/centcom/interlink)
 "ij" = (
-/obj/structure/railing/corner{
-	dir = 8
+/obj/structure/railing{
+	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
 /area/station/service/library)
 "ik" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -1904,7 +1901,7 @@
 "rx" = (
 /obj/structure/rack,
 /obj/item/book/manual/chef_recipes,
-/obj/item/holosign_creator/robot_seat/restaurant,
+/obj/item/storage/box/beakers,
 /obj/item/reagent_containers/condiment/enzyme,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/cafeteria,
@@ -2146,10 +2143,8 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "uu" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/carpet,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/wood/parquet,
 /area/station/service/library)
 "ux" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -2372,10 +2367,8 @@
 /turf/open/floor/stone,
 /area/centcom/interlink)
 "xa" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/turf/open/floor/carpet,
+/obj/structure/mineral_door/wood,
+/turf/open/floor/engine/cult,
 /area/station/service/library)
 "xb" = (
 /obj/effect/spawner/structure/window/hollow/end{
@@ -2495,15 +2488,6 @@
 	},
 /turf/open/floor/stone,
 /area/centcom/interlink)
-"xZ" = (
-/obj/structure/stairs/wood{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/station/service/library)
 "ya" = (
 /turf/open/floor/engine/hull,
 /area/station/medical/medbay/aft)
@@ -2560,7 +2544,10 @@
 /area/centcom/interlink)
 "yJ" = (
 /obj/structure/railing,
-/turf/open/floor/wood/parquet,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/large,
 /area/station/service/library)
 "yN" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -2988,10 +2975,8 @@
 /turf/open/floor/iron,
 /area/station/maintenance/hallway)
 "DR" = (
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/wood/parquet,
+/obj/structure/mineral_door/wood,
+/turf/open/openspace,
 /area/station/service/library)
 "DY" = (
 /obj/structure/mop_bucket/janitorialcart{
@@ -3428,6 +3413,9 @@
 "Ij" = (
 /obj/machinery/light/cold/directional/north,
 /obj/structure/table,
+/obj/machinery/dryer{
+	pixel_y = 24
+	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "Il" = (
@@ -3491,8 +3479,8 @@
 /turf/open/floor/iron,
 /area/station/maintenance/abandon_office)
 "IK" = (
-/obj/structure/railing/corner,
-/turf/open/floor/wood/parquet,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/large,
 /area/station/service/library)
 "IL" = (
 /obj/structure/table/wood,
@@ -5099,8 +5087,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "YM" = (
-/obj/structure/railing/corner,
-/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/carpet,
 /area/station/service/library)
 "YP" = (
@@ -5157,11 +5144,9 @@
 /turf/open/floor/iron/white,
 /area/station/science)
 "ZO" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/wood/parquet,
-/area/station/service/library)
+/obj/machinery/shower/directional/east,
+/turf/open/floor/iron/freezer,
+/area/station/service/kitchen/coldroom)
 "ZP" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 1
@@ -29774,7 +29759,7 @@ vE
 zG
 nc
 FE
-mg
+xa
 FE
 Jf
 Jf
@@ -30360,14 +30345,14 @@ nc
 fM
 zt
 zt
-IK
-Ed
-Ed
-dv
 zt
-xa
-uu
-uu
+Ed
+Ed
+zt
+zt
+zx
+zx
+zx
 bY
 Wp
 eI
@@ -30507,14 +30492,14 @@ fM
 zt
 zt
 FE
-xZ
-ZO
-DR
+nR
 zt
-gk
+zt
+zt
 zx
 zx
 zx
+uu
 Wp
 eI
 AR
@@ -30657,7 +30642,7 @@ nR
 zt
 zt
 zt
-gk
+zx
 zx
 zx
 NC
@@ -30799,12 +30784,12 @@ nc
 nc
 nc
 nc
-NC
-NC
-NC
+nc
 nc
 NC
-zx
+NC
+NC
+uu
 NC
 nc
 Wp
@@ -31529,7 +31514,7 @@ en
 en
 Gd
 jN
-xf
+ZO
 Lq
 Gd
 Mz
@@ -50364,13 +50349,13 @@ nc
 nc
 nc
 nc
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 Xx
@@ -50510,13 +50495,13 @@ NK
 NK
 NK
 FE
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 Xx
@@ -50656,13 +50641,13 @@ NK
 NK
 NK
 FE
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 Xx
@@ -50799,16 +50784,16 @@ vE
 oK
 nc
 FE
-NK
+DR
 FE
 FE
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 Xx
@@ -50947,14 +50932,14 @@ nc
 zx
 zx
 zx
-Uy
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+zx
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 sF
@@ -51093,14 +51078,14 @@ nc
 zx
 zx
 zx
-Uy
-zt
-zt
-zt
-zt
-zt
-zt
-zt
+zx
+gk
+gk
+gk
+gk
+gk
+gk
+gk
 nc
 sF
 sF
@@ -51239,14 +51224,14 @@ nc
 zx
 zx
 zx
-Uy
-zt
-zt
-zt
+zx
+gk
+gk
+gk
 IK
-Ed
-Ed
-Ed
+ij
+ij
+ij
 nc
 sF
 sF
@@ -51386,8 +51371,8 @@ zx
 zx
 zx
 YM
-Ed
-Ed
+ij
+ij
 dv
 yJ
 NK
@@ -51531,7 +51516,7 @@ nc
 zx
 zx
 zx
-ij
+Uy
 NK
 NK
 nc
