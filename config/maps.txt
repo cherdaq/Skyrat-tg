@@ -70,6 +70,8 @@ map blueshift
 	votable
 endmap
 
+#CHERDAQU THERAPY
+
 map kowloon
 	minplayers 13
 	maxplayers 37
