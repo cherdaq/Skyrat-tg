@@ -29,6 +29,22 @@
 			"Baseturf": "/turf/open/openspace"
 		},
 		{
+			"Up": true,
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,

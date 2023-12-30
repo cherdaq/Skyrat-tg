@@ -69,3 +69,9 @@ map blueshift
 	minplayers 70
 	votable
 endmap
+
+map kowloon
+	minplayers 13
+	maxplayers 37
+	votable
+endmap
