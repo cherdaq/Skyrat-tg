@@ -18,6 +18,11 @@
 	name = "Cybernetic heart"
 	path = /obj/item/organ/internal/heart/cybernetic
 
+/datum/augment_item/organ/heart/cybernetic/tier3
+	name = "Supa-Cyber™ heart"
+	path = /obj/item/organ/internal/heart/cybernetic/tier3
+	cost = 4
+
 //LUNGS
 /datum/augment_item/organ/lungs
 	slot = AUGMENT_SLOT_LUNGS
@@ -47,6 +52,11 @@
 	name = "Cybernetic lungs"
 	path = /obj/item/organ/internal/lungs/cybernetic
 
+/datum/augment_item/organ/lungs/cybernetic/tier3
+	name = "Super-Cyber™ lungs"
+	path = /obj/item/organ/internal/lungs/cybernetic/tier3
+	cost = 3
+
 //LIVERS
 /datum/augment_item/organ/liver
 	slot = AUGMENT_SLOT_LIVER
@@ -55,6 +65,11 @@
 	name = "Cybernetic liver"
 	path = /obj/item/organ/internal/liver/cybernetic
 
+/datum/augment_item/organ/liver/cybernetic/tier3
+	name = "Supa-Cyber™ liver"
+	path = /obj/item/organ/internal/liver/cybernetic/tier3
+	cost = 4
+
 //STOMACHES
 /datum/augment_item/organ/stomach
 	slot = AUGMENT_SLOT_STOMACH
@@ -62,6 +77,11 @@
 /datum/augment_item/organ/stomach/cybernetic
 	name = "Cybernetic stomach"
 	path = /obj/item/organ/internal/stomach/cybernetic
+
+/datum/augment_item/organ/stomach/cybernetic/tier3
+	name = "Supa-Cyber™ stomach"
+	path = /obj/item/organ/internal/stomach/cybernetic/tier3
+	cost = 4
 
 //EYES
 /datum/augment_item/organ/eyes
@@ -87,6 +107,20 @@
 	allowed_biotypes = MOB_ORGANIC|MOB_ROBOTIC
 	cost = 1
 
+/datum/augment_item/organ/eyes/cybernetic/nightvision
+	name = "Cool-Ass™ Eyes"
+	path = /obj/item/organ/internal/eyes/night_vision/cyber
+	cost = 3
+
+/datum/augment_item/organ/eyes/cybernetic/xray
+	name = "See-All™ Eyes"
+	path = /obj/item/organ/internal/eyes/robotic/xray
+	cost = 9
+
+/datum/augment_item/organ/eyes/cybernetic/thermal
+	name = "Warm-Seen™ Eyes"
+	path = /obj/item/organ/internal/eyes/robotic/thermals
+	cost = 3
 //TONGUES
 /datum/augment_item/organ/tongue
 	slot = AUGMENT_SLOT_TONGUE
