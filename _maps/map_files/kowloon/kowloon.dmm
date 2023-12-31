@@ -22,7 +22,7 @@
 "af" = (
 /obj/machinery/elevator_control_panel/directional/west{
 	linked_elevator_id = "kowlo_dorm_elev";
-	preset_destination_names = list("1" = "Basement", "2" = "1F", "3" = "2F", "4" = "3F")
+	preset_destination_names = list("2" = "Basement", "3" = "1F", "4" = "2F", "5" = "3F")
 	},
 /obj/structure/transport/linear,
 /turf/open/floor/plating/elevatorshaft,
@@ -1112,7 +1112,7 @@
 "jv" = (
 /obj/machinery/elevator_control_panel/directional/west{
 	linked_elevator_id = "kowlo_dorm_elev";
-	preset_destination_names = list("1" = "Basement", "2" = "1F", "3" = "2F", "4" = "3F")
+	preset_destination_names = list("2" = "Basement", "3" = "1F", "4" = "2F", "5" = "3F")
 	},
 /turf/open/openspace,
 /area/station/service/kitchen/kitchen_backroom)
