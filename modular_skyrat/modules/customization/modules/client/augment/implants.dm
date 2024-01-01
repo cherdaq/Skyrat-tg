@@ -41,7 +41,7 @@
 /datum/augment_item/implant/l_arm/surg_tools
     name = "Surgical Toolset"
     cost = 6
-    path = /obj/item/organ/internal/cyberimp/arm/surgery/emagged
+    path = /obj/item/organ/internal/cyberimp/arm/surgery
 
 //RIGHT ARM IMPLANTS
 /datum/augment_item/implant/r_arm
@@ -60,7 +60,7 @@
 /datum/augment_item/implant/r_arm/surg_tools
     name = "Surgical Toolset"
     cost = 6
-    path = /obj/item/organ/internal/cyberimp/arm/surgery/emagged
+    path = /obj/item/organ/internal/cyberimp/arm/surgery
 
 //EYES IMPLANTS
 /datum/augment_item/implant/eyes
