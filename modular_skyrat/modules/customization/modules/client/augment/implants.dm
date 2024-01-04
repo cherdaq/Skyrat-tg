@@ -47,11 +47,6 @@
     cost = 4
     path = /obj/item/organ/internal/cyberimp/arm/razor_claws/right_arm
 
-/datum/augment_item/implant/r_arm/engi_tools
-    name = "Engineering Toolset"
-    cost = 6
-    path = /obj/item/organ/internal/cyberimp/arm/toolset
-
 /datum/augment_item/implant/r_arm/surg_tools
     name = "Surgical Toolset"
     cost = 6

@@ -258,6 +258,7 @@
 
 /obj/item/organ/internal/cyberimp/arm/toolset/l
 	zone = BODY_ZONE_L_ARM
+	slot = ORGAN_SLOT_LEFT_ARM_AUG
 
 /obj/item/organ/internal/cyberimp/arm/toolset/emag_act(mob/user, obj/item/card/emag/emag_card)
 	for(var/datum/weakref/created_item in items_list)
