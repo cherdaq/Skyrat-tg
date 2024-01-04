@@ -36,12 +36,7 @@
 /datum/augment_item/implant/l_arm/engi_tools
     name = "Engineering Toolset"
     cost = 6
-    path = /obj/item/organ/internal/cyberimp/arm/toolset
-
-/datum/augment_item/implant/l_arm/surg_tools
-    name = "Surgical Toolset"
-    cost = 6
-    path = /obj/item/organ/internal/cyberimp/arm/surgery
+    path = /obj/item/organ/internal/cyberimp/arm/toolset/l
 
 //RIGHT ARM IMPLANTS
 /datum/augment_item/implant/r_arm

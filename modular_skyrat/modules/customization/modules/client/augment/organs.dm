@@ -121,6 +121,11 @@
 	name = "Warm-Seen™ Eyes"
 	path = /obj/item/organ/internal/eyes/robotic/thermals
 	cost = 3
+
+/datum/augment_item/organ/eyes/cybernetic/shield
+	name = "Weld-Great™ Eyes"
+	path = /obj/item/organ/internal/eyes/robotic/shield
+	cost = 3
 //TONGUES
 /datum/augment_item/organ/tongue
 	slot = AUGMENT_SLOT_TONGUE
