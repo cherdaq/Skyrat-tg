@@ -19,6 +19,10 @@
 		#include "map_files\KiloStation\KiloStation.dmm"
 		// SKYRAT EDIT END
 
+		//CHERDAL
+		#include "map_files\kowloon\kowloon.dmm"
+		//CHERDAW
+
 		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif

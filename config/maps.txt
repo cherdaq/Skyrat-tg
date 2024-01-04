@@ -74,3 +74,12 @@ map kilostation
 	maxplayers 75
 	votable
 endmap
+
+##CHERDAQU THERAPY##
+
+map kowloon
+	minplayers 13
+	maxplayers 37
+  votable
+endmap
+  

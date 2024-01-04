@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"map_name": "Kowloon",
+	"map_path": "map_files/kowloon",
+	"map_file": "kowloon.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/misc/asteroid"
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/openspace"
+		}
+	]
+}

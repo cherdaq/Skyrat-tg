@@ -15,6 +15,15 @@
 /datum/augment_item/implant/chest
 	slot = AUGMENT_SLOT_CHEST_IMPLANT
 
+/datum/augment_item/implant/chest
+	name = "Reviver Implant"
+	path = /obj/item/organ/internal/cyberimp/chest/reviver
+
+/datum/augment_item/implant/chest/healthanalyzer
+	name = "Internal Health Scanner"
+	path = /obj/item/organ/internal/cyberimp/chest/scanner
+	cost = 4
+
 //LEFT ARM IMPLANTS
 /datum/augment_item/implant/l_arm
 	slot = AUGMENT_SLOT_LEFT_ARM_IMPLANT
@@ -23,6 +32,11 @@
     name = "Left Razor Claws"
     cost = 4
     path = /obj/item/organ/internal/cyberimp/arm/razor_claws/left_arm
+
+/datum/augment_item/implant/l_arm/engi_tools
+    name = "Engineering Toolset"
+    cost = 6
+    path = /obj/item/organ/internal/cyberimp/arm/toolset/l
 
 //RIGHT ARM IMPLANTS
 /datum/augment_item/implant/r_arm
@@ -33,9 +47,24 @@
     cost = 4
     path = /obj/item/organ/internal/cyberimp/arm/razor_claws/right_arm
 
+/datum/augment_item/implant/r_arm/engi_tools
+    name = "Engineering Toolset"
+    cost = 6
+    path = /obj/item/organ/internal/cyberimp/arm/toolset
+
+/datum/augment_item/implant/r_arm/surg_tools
+    name = "Surgical Toolset"
+    cost = 6
+    path = /obj/item/organ/internal/cyberimp/arm/surgery
+
 //EYES IMPLANTS
 /datum/augment_item/implant/eyes
 	slot = AUGMENT_SLOT_EYES_IMPLANT
+
+/datum/augment_item/implant/eyes/diagno_hud
+	name = "Diagnostic HUD"
+	cost = 3
+	path = /obj/item/organ/internal/cyberimp/eyes/hud/diagnostic
 
 //MOUTH IMPLANTS
 /datum/augment_item/implant/mouth
