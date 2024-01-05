@@ -22,10 +22,12 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ae" = (
 /obj/effect/turf_decal/trimline/white/corner,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "ag" = (
 /obj/effect/spawner/random/trash,
@@ -33,7 +35,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ah" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
@@ -47,7 +49,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ai" = (
 /obj/structure/table/glass,
 /obj/item/stack/sheet/mineral/plasma{
@@ -76,11 +78,11 @@
 	},
 /obj/effect/spawner/random/trash/cigbutt,
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ak" = (
 /obj/structure/closet/syndicate/resources/everything,
 /turf/open/floor/iron,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "al" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -106,7 +108,7 @@
 /area/station/commons/dorms/a)
 "at" = (
 /turf/closed/wall,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "au" = (
 /obj/structure/table,
 /obj/structure/cable,
@@ -249,7 +251,7 @@
 "bw" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "by" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -288,7 +290,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "bO" = (
 /obj/structure/kitchenspike,
 /obj/effect/turf_decal/delivery,
@@ -306,9 +308,11 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "bR" = (
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "bT" = (
 /turf/closed/wall/r_wall,
@@ -352,7 +356,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "co" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/parquet,
@@ -379,7 +383,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "cy" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
@@ -433,7 +437,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "cL" = (
 /obj/structure/chair/e_chair{
 	dir = 4
@@ -442,7 +446,7 @@
 	name = "мягкая игрушка ГЕРАСИМЫЧ"
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "cN" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -458,7 +462,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "cT" = (
 /obj/structure/table,
 /obj/item/grenade/chem_grenade/cleaner,
@@ -480,7 +484,9 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "db" = (
 /obj/machinery/light_switch/directional/north,
@@ -495,10 +501,12 @@
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/office)
 "dg" = (
+/obj/effect/light_emitter/interlink,
+/obj/effect/light_emitter/interlink,
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "dj" = (
 /obj/structure/table,
 /turf/open/floor/iron,
@@ -529,7 +537,7 @@
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "dx" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/plastic,
@@ -592,7 +600,7 @@
 	name = "Валера"
 	},
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "dX" = (
 /turf/closed/wall/mineral/wood,
 /area/station/service/library)
@@ -661,7 +669,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "eL" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 8
@@ -724,7 +732,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ff" = (
 /turf/closed/wall/mineral/stone,
 /area/station/service/janitor)
@@ -765,7 +773,7 @@
 /turf/open/floor/iron/half{
 	dir = 1
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "fA" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -805,7 +813,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "fL" = (
 /turf/open/floor/iron/large,
 /area/station/medical/medbay/aft)
@@ -819,6 +827,9 @@
 /obj/effect/landmark/start,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"fS" = (
+/turf/open/floor/plating,
+/area/station/security/prison)
 "fT" = (
 /obj/structure/chair/stool/bar/directional/east,
 /obj/effect/landmark/start,
@@ -941,7 +952,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "gJ" = (
 /obj/structure/table/wood,
 /obj/structure/reagent_dispensers/beerkeg{
@@ -958,10 +969,10 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "gL" = (
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "gM" = (
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/plating,
@@ -978,7 +989,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "gR" = (
 /obj/structure/closet/crate,
 /turf/open/floor/iron,
@@ -1022,7 +1033,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "hf" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 1
@@ -1056,7 +1067,7 @@
 "hn" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning,
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "hp" = (
 /obj/structure/grille/indestructible,
 /obj/structure/grille/indestructible,
@@ -1072,7 +1083,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ht" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/iron,
@@ -1182,7 +1193,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ih" = (
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
@@ -1205,7 +1216,9 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 10
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "it" = (
 /obj/structure/cable/multilayer/multiz,
@@ -1239,7 +1252,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "iI" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/wood/parquet,
@@ -1283,6 +1296,10 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/explab)
+"jb" = (
+/obj/structure/cable/multilayer/multiz,
+/turf/open/floor/catwalk_floor,
+/area/station/commons/dorms/b/z3)
 "jc" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 6
@@ -1333,7 +1350,7 @@
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "jx" = (
 /turf/open/floor/plating,
 /area/station/service/janitor)
@@ -1399,7 +1416,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "jU" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
@@ -1457,7 +1474,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ki" = (
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
@@ -1517,8 +1534,8 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms/a/z1)
 "kM" = (
-/turf/open/openspace,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/catwalk_floor,
+/area/station/commons/dorms/a/z3)
 "kN" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave/engineering/cell_included,
@@ -1577,7 +1594,7 @@
 /area/station/service/library)
 "ll" = (
 /turf/open/openspace,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "lm" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
@@ -1604,7 +1621,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "lw" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -1639,7 +1656,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "lD" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
@@ -1653,7 +1670,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "lE" = (
 /turf/open/floor/iron/large,
 /area/station/science)
@@ -1668,7 +1685,7 @@
 /obj/effect/turf_decal/trimline/yellow/mid_joiner,
 /obj/effect/turf_decal/trimline/yellow/mid_joiner,
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "lI" = (
 /obj/structure/chair/sofa/corp/corner,
 /obj/effect/landmark/start/paramedic,
@@ -1703,11 +1720,11 @@
 /obj/effect/spawner/structure/window/hollow/reinforced/directional,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "me" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/iron,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "mh" = (
 /turf/closed/wall,
 /area/station/medical/morgue)
@@ -1829,7 +1846,7 @@
 /area/station/commons/lounge)
 "mZ" = (
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "na" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 5
@@ -1856,7 +1873,7 @@
 /area/station/maintenance/central/lesser)
 "ng" = (
 /turf/open/floor/iron/white/small,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "nh" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line,
 /obj/structure/railing,
@@ -1898,7 +1915,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "nv" = (
 /obj/effect/spawner/random/trash/graffiti{
 	spawn_loot_chance = 50;
@@ -1912,7 +1929,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "nw" = (
 /obj/structure/rack,
 /obj/item/book/manual/chef_recipes,
@@ -1933,7 +1950,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "ny" = (
 /obj/structure/railing{
 	dir = 8
@@ -1946,7 +1963,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "nD" = (
 /obj/structure/cable/multilayer/multiz,
 /obj/machinery/light/cold/directional/east,
@@ -2151,8 +2168,10 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "pd" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
@@ -2226,11 +2245,11 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "pH" = (
 /obj/structure/cable,
 /turf/closed/wall,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "pI" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8;
@@ -2245,7 +2264,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "pJ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	color = "#EFB341";
@@ -2255,7 +2274,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "pK" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -2322,7 +2341,7 @@
 /area/station/engineering/main)
 "qn" = (
 /turf/closed/indestructible/fakedoor/maintenance,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "qo" = (
 /obj/effect/turf_decal/stripes/white/line{
 	color = "#EFB341";
@@ -2335,7 +2354,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "qq" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 4
@@ -2362,7 +2381,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "qx" = (
 /turf/closed/wall,
 /area/station/hallway/floor1/aft)
@@ -2437,7 +2456,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
 "qS" = (
 /obj/effect/turf_decal/stripes/white/corner{
@@ -2447,7 +2466,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "qT" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -2462,7 +2481,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "rb" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/iron/checker{
@@ -2481,7 +2500,7 @@
 "rg" = (
 /obj/structure/bed/maint,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "ri" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 1
@@ -2505,7 +2524,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "rp" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -2557,7 +2576,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "rD" = (
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
@@ -2610,11 +2629,11 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "rV" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "rX" = (
 /turf/closed/wall/mineral/gold,
 /area/station/asteroid)
@@ -2628,7 +2647,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "sh" = (
 /obj/structure/railing{
 	dir = 4
@@ -2694,11 +2713,13 @@
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "sv" = (
 /obj/effect/turf_decal/trimline/white/warning,
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "sw" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341"
@@ -2711,7 +2732,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "sy" = (
 /obj/machinery/conveyor{
 	id = "garbage";
@@ -2724,7 +2745,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "sD" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Experimentation Chamber"
@@ -2748,7 +2769,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "sQ" = (
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating,
@@ -2764,7 +2785,9 @@
 /area/station/commons/vacant_room/office)
 "sU" = (
 /obj/effect/turf_decal/trimline/white/warning,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "sV" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -2786,7 +2809,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "tb" = (
 /obj/effect/spawner/random/vending/colavend,
 /turf/open/floor/iron,
@@ -2839,7 +2862,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "tv" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 10
@@ -2849,7 +2872,7 @@
 "tx" = (
 /obj/structure/table/wood,
 /obj/item/pizzabox/random,
-/turf/open/floor/carpet,
+/turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
 "tA" = (
 /obj/structure/cable,
@@ -2927,7 +2950,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "uf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -2990,14 +3013,14 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "uM" = (
 /obj/structure/sign/departments/science/alt/directional/south,
 /turf/open/floor/stone{
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "uO" = (
 /obj/machinery/elevator_control_panel/directional/south{
 	linked_elevator_id = "kowlo_med_elev";
@@ -3093,7 +3116,7 @@
 "vD" = (
 /obj/item/v8_engine,
 /turf/open/floor/iron,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security)
 "vE" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/toilet/restrooms{
@@ -3129,11 +3152,13 @@
 "vN" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "vO" = (
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor,
-/area/station/asteroid)
+/obj/effect/spawner/structure/window/hollow/reinforced/directional{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/security/prison)
 "vS" = (
 /turf/open/floor/wood,
 /area/station/commons/lounge)
@@ -3166,12 +3191,12 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "wa" = (
 /turf/open/floor/iron/half{
 	dir = 1
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "wd" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/white,
@@ -3223,7 +3248,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security)
 "wu" = (
 /obj/structure/bookcase/manuals/engineering,
 /turf/open/floor/wood/parquet,
@@ -3248,7 +3273,7 @@
 /area/station/commons/vacant_room/office)
 "wD" = (
 /turf/open/floor/iron,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "wG" = (
 /turf/open/floor/iron,
 /area/station/asteroid)
@@ -3257,7 +3282,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security)
 "wJ" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
@@ -3265,7 +3290,7 @@
 	dir = 8
 	},
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "wO" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/lounge)
@@ -3370,7 +3395,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "xP" = (
 /turf/open/floor/iron/dark,
 /area/station/engineering/gravity_generator)
@@ -3411,7 +3436,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "yb" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -3443,7 +3468,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "yt" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/chair/sofa/bench/right{
@@ -3455,7 +3480,7 @@
 "yv" = (
 /obj/structure/toiletbong,
 /turf/open/floor/iron/white/small,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "yw" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 1
@@ -3495,7 +3520,7 @@
 /obj/structure/mineral_door/wood,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "yI" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/cable,
@@ -3509,7 +3534,7 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "yL" = (
 /turf/open/openspace,
 /area/station/security/prison)
@@ -3533,7 +3558,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "yT" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor,
@@ -3545,14 +3570,14 @@
 /obj/structure/cable,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "yX" = (
 /obj/effect/turf_decal/trimline/yellow/corner,
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341"
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "yZ" = (
 /turf/closed/indestructible/riveted,
 /area/station/engineering/gravity_generator)
@@ -3579,7 +3604,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "zg" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood/large,
@@ -3627,7 +3652,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "zq" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -3709,7 +3734,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "zM" = (
 /obj/structure/table/glass,
 /obj/item/grenade/chem_grenade,
@@ -3730,7 +3755,7 @@
 /area/station/engineering/main)
 "zN" = (
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms)
+/area/station/commons/dorms/b/z3)
 "zO" = (
 /obj/effect/turf_decal/stripes/white/line{
 	color = "#EFB341";
@@ -3740,7 +3765,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "zS" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/structure/cable/multilayer/multiz,
@@ -3787,7 +3812,7 @@
 	},
 /obj/item/toy/basketball,
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "As" = (
 /turf/open/floor/wood/tile,
 /area/station/service/library/upper)
@@ -3815,7 +3840,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Ay" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Vacant Office"
@@ -3831,7 +3856,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "AB" = (
 /obj/machinery/smartfridge/organ,
 /obj/effect/turf_decal/tile/blue/full,
@@ -3889,7 +3914,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "AX" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -3904,7 +3929,9 @@
 /obj/effect/turf_decal/trimline/white/corner{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "Be" = (
 /obj/structure/grille/indestructible,
@@ -3950,14 +3977,14 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "Bu" = (
 /turf/closed/wall/r_wall,
 /area/station/maintenance/department/medical)
 "Bv" = (
 /obj/structure/sign/warning/yes_smoking/circle/directional/south,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Bw" = (
 /obj/structure/railing{
 	dir = 4
@@ -3991,14 +4018,15 @@
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "BO" = (
 /turf/closed/wall,
 /area/station/maintenance/aft/upper)
 "BR" = (
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor,
-/area/station/commons/dorms/b/z1)
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/station/commons/dorms/b/z3)
 "BU" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 6
@@ -4097,7 +4125,7 @@
 "Cz" = (
 /obj/effect/spawner/structure/window/hollow/middle,
 /turf/open/floor/plating,
-/area/station/commons/dorms)
+/area/station/commons/dorms/b/z3)
 "CC" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -4122,7 +4150,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "CE" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms/a)
@@ -4149,7 +4177,7 @@
 "CQ" = (
 /obj/machinery/shower/directional/west,
 /turf/open/floor/iron/white/small,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "CT" = (
 /obj/structure/railing{
 	dir = 8
@@ -4165,7 +4193,7 @@
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "CZ" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 1
@@ -4180,7 +4208,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Dd" = (
 /obj/structure/fence{
 	dir = 4
@@ -4193,7 +4221,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "De" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
@@ -4229,7 +4257,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Du" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
@@ -4250,7 +4278,7 @@
 	color = "#EFB341"
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "DR" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
@@ -4326,7 +4354,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "En" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -4362,6 +4390,9 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/station/engineering/main)
+"Ex" = (
+/turf/open/floor/catwalk_floor,
+/area/station/commons/dorms/a)
 "Ey" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 1
@@ -4371,8 +4402,8 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "EA" = (
-/turf/open/floor/plastic,
-/area/station/maintenance/central/lesser)
+/turf/closed/wall/mineral/stone,
+/area/station/commons/dorms/a/z3)
 "EC" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -4388,7 +4419,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "EK" = (
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 4
@@ -4398,7 +4429,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "EQ" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -4450,7 +4481,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Fm" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -4468,8 +4499,10 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "Fp" = (
-/turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/station/security)
 "Fq" = (
 /obj/structure/sink/kitchen/directional/west,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -4484,9 +4517,6 @@
 	},
 /turf/open/floor/plastic,
 /area/station/service/janitor)
-"FB" = (
-/turf/open/floor/carpet,
-/area/station/service/cafeteria)
 "FI" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 4
@@ -4503,7 +4533,7 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "FL" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /turf/open/floor/iron/white,
@@ -4532,7 +4562,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "FR" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
@@ -4560,7 +4590,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "FX" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/wood,
@@ -4579,11 +4609,15 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 5
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Gc" = (
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/station/security/prison)
 "Gd" = (
 /turf/open/floor/carpet,
 /area/station/service/library)
@@ -4609,8 +4643,10 @@
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/aft/upper)
 "Gk" = (
-/turf/closed/wall/r_wall,
-/area/station/asteroid)
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Gl" = (
 /obj/structure/table/wood,
 /obj/machinery/door/firedoor,
@@ -4646,12 +4682,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Gw" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line,
 /obj/structure/railing,
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Gx" = (
 /obj/effect/turf_decal/siding/thinplating_new/end{
 	dir = 1
@@ -4659,7 +4695,7 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Gz" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
@@ -4696,7 +4732,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "GO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4726,7 +4762,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "GY" = (
 /obj/structure/cable,
 /turf/open/floor/iron/white,
@@ -4734,7 +4770,7 @@
 "GZ" = (
 /obj/structure/closet/infinite,
 /turf/open/floor/iron,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Hf" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -4774,7 +4810,7 @@
 "Hp" = (
 /obj/effect/spawner/structure/electrified_grille,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "Hq" = (
 /obj/structure/bookcase/random/fiction,
 /turf/open/floor/wood/parquet,
@@ -4820,7 +4856,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "HM" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
@@ -4843,12 +4879,8 @@
 /turf/open/floor/iron/white,
 /area/station/science)
 "HS" = (
-/obj/effect/light_emitter/interlink,
-/obj/effect/light_emitter/interlink,
-/turf/open/openspace{
-	planetary_atmos = 1
-	},
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron,
+/area/station/commons/dorms/b/z3)
 "HT" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/cup/bottle/ethanol{
@@ -4894,7 +4926,7 @@
 /area/station/medical/morgue)
 "Ii" = (
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Il" = (
 /obj/structure/cable/multilayer/multiz,
 /obj/structure/railing/corner,
@@ -4906,10 +4938,10 @@
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "In" = (
 /turf/open/floor/iron,
-/area/station/maintenance/central/lesser)
+/area/station/security/prison)
 "Ir" = (
 /obj/structure/sign/directions/engineering/directional/north{
 	pixel_y = 42;
@@ -4928,7 +4960,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "IA" = (
 /turf/open/floor/carpet/blue,
 /area/station/commons/lounge)
@@ -5084,7 +5116,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "JO" = (
 /obj/effect/spawner/structure/window/hollow/reinforced,
 /turf/open/floor/plating,
@@ -5115,7 +5147,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Ka" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
@@ -5128,15 +5160,17 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Kb" = (
 /turf/open/floor/iron/half,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Kc" = (
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 6
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
 /area/station/medical/medbay/aft)
 "Ke" = (
 /turf/open/floor/stone{
@@ -5159,7 +5193,7 @@
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Ko" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public,
@@ -5189,7 +5223,7 @@
 "Ku" = (
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Kv" = (
 /obj/machinery/computer/records/medical{
 	dir = 1
@@ -5214,7 +5248,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "KA" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance,
@@ -5243,7 +5277,7 @@
 "KN" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "KO" = (
 /turf/open/floor/plating/elevatorshaft,
 /area/station/science)
@@ -5304,7 +5338,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "Lq" = (
 /obj/structure/table/reinforced,
 /obj/item/table_clock{
@@ -5352,7 +5386,7 @@
 	color = "#EFB341"
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "LR" = (
 /obj/structure/chair/sofa/left/maroon{
 	dir = 8
@@ -5419,10 +5453,10 @@
 /turf/open/openspace{
 	planetary_atmos = 1
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Mo" = (
 /turf/closed/wall/mineral/stone,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Mq" = (
 /obj/structure/chair/stool/bar/directional/east,
 /obj/machinery/light/warm/directional/west,
@@ -5460,11 +5494,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "MC" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/corner,
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "MD" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341";
@@ -5478,7 +5512,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "MF" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
@@ -5497,7 +5531,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "MI" = (
 /obj/structure/sign/calendar/directional/west,
 /turf/open/floor/wood/parquet,
@@ -5526,7 +5560,7 @@
 /area/station/maintenance/disposal)
 "MN" = (
 /turf/closed/wall/r_wall,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "MT" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
@@ -5535,7 +5569,7 @@
 /area/station/science/explab)
 "MX" = (
 /turf/open/floor/iron/cafeteria,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "MY" = (
 /obj/structure/cable,
 /obj/machinery/power/floodlight,
@@ -5555,7 +5589,7 @@
 	desc = "Шаблонный плакат государственного производства, гласящий: 'Стой! Дальше следует зона Лёхи: биоугроза и высокая травматичность!'"
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Ne" = (
 /obj/structure/railing,
 /obj/structure/cable,
@@ -5604,7 +5638,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Ny" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8;
@@ -5620,7 +5654,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Nz" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
@@ -5648,10 +5682,10 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "NG" = (
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "NH" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -5700,8 +5734,10 @@
 /turf/open/floor/iron/half,
 /area/station/commons/dorms/a)
 "NW" = (
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Ob" = (
 /turf/closed/wall,
 /area/station/maintenance/department/engineering/lesser)
@@ -5766,7 +5802,7 @@
 "Oo" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line,
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Op" = (
 /turf/open/floor/iron/dark/small,
 /area/station/medical/chem_storage)
@@ -5810,16 +5846,18 @@
 /obj/structure/sign/flag/nri/directional/north,
 /obj/effect/spawner/random/entertainment/drugs,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "OG" = (
 /turf/open/floor/iron/half,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "OH" = (
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "OI" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -5872,7 +5910,7 @@
 	name = "inactive propulsion engine"
 	},
 /turf/open/openspace,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "OY" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor,
@@ -5906,10 +5944,6 @@
 /obj/structure/railing,
 /turf/closed/wall/r_wall,
 /area/station/maintenance/central)
-"Pt" = (
-/obj/structure/chair/stool/bar/directional/west,
-/turf/open/floor/carpet,
-/area/station/service/cafeteria)
 "PA" = (
 /obj/structure/stairs/north,
 /turf/open/floor/iron/stairs,
@@ -5927,7 +5961,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "PF" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 8
@@ -5936,7 +5970,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "PI" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 8
@@ -5974,7 +6008,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Qb" = (
 /obj/structure/railing{
 	dir = 4
@@ -5995,7 +6029,7 @@
 "Qg" = (
 /obj/structure/stairs/east,
 /turf/open/floor/iron,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Qj" = (
 /obj/machinery/door/airlock/medical{
 	name = "Medbay-to-Science"
@@ -6032,7 +6066,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Qz" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 8
@@ -6081,7 +6115,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "QT" = (
 /obj/structure/cable,
 /turf/open/floor/iron/freezer,
@@ -6116,8 +6150,10 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 6
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Re" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/iron,
@@ -6152,7 +6188,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Rn" = (
 /obj/machinery/light/small/directional/south,
 /obj/structure/closet/crate,
@@ -6206,13 +6242,13 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Rz" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 6
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "RB" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
@@ -6232,7 +6268,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "RH" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341";
@@ -6242,7 +6278,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "RK" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 4
@@ -6251,7 +6287,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "RO" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/item/flashlight/lantern,
@@ -6312,7 +6348,7 @@
 "Sl" = (
 /obj/machinery/door/airlock/bathroom,
 /turf/open/floor/iron/white/textured_half,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Sq" = (
 /turf/closed/wall,
 /area/station/medical/pharmacy)
@@ -6337,7 +6373,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Sw" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/iron/freezer,
@@ -6365,7 +6401,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "SM" = (
 /obj/effect/spawner/structure/window/hollow/middle{
 	dir = 8
@@ -6388,7 +6424,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "SR" = (
 /turf/open/floor/plating,
 /area/station/commons/dorms/b/z1)
@@ -6462,7 +6498,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Tj" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 4
@@ -6554,7 +6590,7 @@
 	name = "уши Лёхи"
 	},
 /turf/open/floor/iron/white/small,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "TR" = (
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/iron/smooth_large,
@@ -6563,8 +6599,10 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Ua" = (
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/wood/parquet,
@@ -6594,7 +6632,7 @@
 /turf/open/floor/iron/white/smooth_half{
 	dir = 1
 	},
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "Ui" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/cup/bottle/acidic_buffer{
@@ -6616,9 +6654,9 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/chem_storage)
 "Uj" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/iron/grimy,
-/area/station/service/library/lounge)
+/obj/effect/spawner/structure/window/hollow/reinforced/directional,
+/turf/open/floor/plating,
+/area/station/security/prison)
 "Uk" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/light{
 	pixel_y = 15;
@@ -6633,7 +6671,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Uo" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks/beer,
@@ -6681,7 +6719,7 @@
 /area/station/medical)
 "Uy" = (
 /turf/open/floor/iron/white/small,
-/area/station/commons/dorms/b)
+/area/station/commons/dorms/b/z2)
 "UB" = (
 /turf/closed/wall,
 /area/station/medical/treatment_center)
@@ -6699,10 +6737,10 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "UI" = (
 /turf/closed/indestructible/riveted,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "UL" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
 	dir = 4
@@ -6718,7 +6756,7 @@
 "UQ" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms/b/z1)
+/area/station/maintenance/central/lesser)
 "UR" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -6747,7 +6785,7 @@
 /area/station/engineering/gravity_generator)
 "UX" = (
 /turf/open/floor/catwalk_floor,
-/area/station/commons/dorms/b/z1)
+/area/station/maintenance/central/lesser)
 "UY" = (
 /obj/effect/spawner/random/trash/graffiti{
 	pixel_x = -32;
@@ -6761,7 +6799,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "UZ" = (
 /obj/structure/cable/multilayer/multiz,
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -6780,7 +6818,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Ve" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 1
@@ -6795,14 +6833,14 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Vl" = (
 /turf/open/floor/carpet,
 /area/station/service/library/upper)
 "Vn" = (
 /obj/structure/sign/warning/explosives/alt/directional/west,
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "Vo" = (
 /turf/open/floor/iron,
 /area/station/service/kitchen/kitchen_backroom)
@@ -6831,7 +6869,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Vw" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/cable,
@@ -6852,7 +6890,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "VC" = (
 /turf/open/openspace,
 /area/station/medical/medbay/central)
@@ -6913,7 +6951,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "We" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -6925,8 +6963,10 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 9
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "Wh" = (
 /obj/item/reagent_containers/pill/adminordrazine,
 /obj/item/reagent_containers/pill/adminordrazine,
@@ -6969,7 +7009,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Wu" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/cup/bottle/phosphorus{
@@ -7002,7 +7042,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/textured_large,
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Wx" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/structure/cable,
@@ -7010,7 +7050,7 @@
 /area/station/medical/medbay/central)
 "Wy" = (
 /turf/closed/wall/mineral/stone,
-/area/station/commons/dorms)
+/area/station/commons/dorms/b/z3)
 "WB" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 8
@@ -7030,7 +7070,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "WJ" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 4
@@ -7144,13 +7184,13 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "XL" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "XM" = (
 /turf/closed/wall,
 /area/station/science/explab)
@@ -7177,8 +7217,10 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 10
 	},
-/turf/open/floor/iron/smooth,
-/area/icemoon/surface/outdoors/nospawn)
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "XZ" = (
 /obj/structure/cable,
 /turf/open/floor/iron/half,
@@ -7224,7 +7266,7 @@
 "YB" = (
 /obj/machinery/door/airlock/glass,
 /turf/open/floor/iron/half,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "YF" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
 	dir = 8
@@ -7233,7 +7275,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "YG" = (
 /obj/structure/stairs/south{
 	icon = 'modular_skyrat/modules/aesthetics/floors/icons/floors.dmi';
@@ -7252,7 +7294,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron,
-/area/station/commons/dorms)
+/area/station/commons/dorms/a/z3)
 "YT" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341";
@@ -7262,7 +7304,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "YU" = (
 /turf/closed/wall,
 /area/station/maintenance/disposal)
@@ -7326,7 +7368,7 @@
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
-/area/icemoon/surface/outdoors/nospawn)
+/area/kowloon/outside)
 "Zu" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -7356,7 +7398,7 @@
 /obj/structure/cable,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/icemoon/surface/outdoors/nospawn)
+/area/station/security/prison)
 "ZI" = (
 /obj/structure/table,
 /obj/effect/spawner/random/decoration/ornament,
@@ -9294,9 +9336,9 @@ SU
 SU
 cf
 cf
-Gk
-vO
-Gk
+ka
+XU
+ka
 cf
 cf
 cf
@@ -9375,10 +9417,10 @@ SU
 SU
 SU
 cf
-qN
-qN
-BR
-qN
+LJ
+LJ
+XU
+LJ
 qN
 qN
 qN
@@ -9457,10 +9499,10 @@ SU
 SU
 SU
 cf
-qN
+LJ
 UX
-BR
-qN
+XU
+LJ
 qN
 qN
 qN
@@ -9539,10 +9581,10 @@ SU
 SU
 SU
 cf
-qN
+LJ
 UX
-BR
-qN
+XU
+LJ
 qN
 qN
 qN
@@ -9621,10 +9663,10 @@ SU
 SU
 SU
 cf
-qN
+LJ
 UQ
-BR
-qN
+XU
+LJ
 qN
 qN
 qN
@@ -9703,14 +9745,14 @@ SU
 SU
 SU
 cf
-qN
-qN
-BR
-qN
-qN
-qN
-qN
-qN
+LJ
+LJ
+XU
+LJ
+LJ
+LJ
+LJ
+LJ
 qN
 qN
 qN
@@ -9786,13 +9828,13 @@ SU
 SU
 cf
 qN
-qN
-BR
-BR
-BR
-BR
-BR
-qN
+LJ
+XU
+XU
+XU
+XU
+XU
+LJ
 qN
 qN
 qN
@@ -9868,13 +9910,13 @@ SU
 SU
 cf
 qN
-qN
-qN
-qN
-qN
-qN
-BR
-qN
+LJ
+LJ
+LJ
+LJ
+LJ
+XU
+LJ
 qN
 qN
 qN
@@ -9954,9 +9996,9 @@ qN
 qN
 qN
 qN
-qN
-BR
-qN
+LJ
+XU
+LJ
 qN
 qN
 qN
@@ -10036,9 +10078,9 @@ cf
 cf
 cf
 cf
-Gk
-vO
-Gk
+ka
+XU
+ka
 cf
 cf
 cf
@@ -10118,9 +10160,9 @@ Zb
 Zb
 cf
 cf
-Gk
-vO
-Gk
+ka
+XU
+ka
 cf
 cf
 cf
@@ -10200,9 +10242,9 @@ ZD
 Zb
 cf
 cf
-Gk
-vO
-Gk
+ka
+XU
+ka
 cf
 cf
 cf
@@ -11469,9 +11511,9 @@ pe
 YU
 Ee
 Ee
-LJ
-LJ
-LJ
+lr
+lr
+lr
 lr
 lr
 BZ
@@ -11552,8 +11594,8 @@ Ju
 Ee
 Ee
 In
-EA
-EA
+BZ
+BZ
 lr
 lr
 BZ
@@ -11633,9 +11675,9 @@ LJ
 ne
 Ee
 Ee
-LJ
-Ee
-EA
+lr
+fS
+BZ
 lr
 lr
 BZ
@@ -11713,15 +11755,15 @@ Ee
 Ee
 Ee
 Oi
-LJ
-LJ
-LJ
-Ee
-Ee
 lr
 lr
 lr
+fS
+fS
 lr
+lr
+lr
+In
 lr
 lr
 lr
@@ -11795,15 +11837,15 @@ LJ
 Ee
 LJ
 Ee
-LJ
+lr
 In
 In
 In
 In
-lr
-lr
-lr
-lr
+In
+vO
+Uj
+In
 lr
 lr
 lr
@@ -11877,20 +11919,20 @@ Ee
 Ee
 LJ
 Ee
-LJ
+lr
 In
 In
 In
 In
 In
+vO
+Uj
 In
-In
-In
-LJ
-LJ
-LJ
-LJ
-LJ
+lr
+lr
+lr
+lr
+lr
 LJ
 LJ
 LJ
@@ -11959,17 +12001,17 @@ LJ
 LJ
 LJ
 Ee
-LJ
+lr
 In
 In
 In
 In
 In
+vO
+Uj
 In
-In
-In
-LJ
-Ee
+lr
+lr
 Ee
 LJ
 Ee
@@ -12041,17 +12083,17 @@ jV
 jV
 LJ
 Ee
-LJ
+lr
 In
 In
 In
 In
 In
+lr
+lr
 In
-LJ
-LJ
-LJ
-Ee
+lr
+lr
 Ee
 LJ
 Ee
@@ -12123,17 +12165,17 @@ jV
 jV
 LJ
 Ee
-LJ
+lr
 In
 In
 In
 In
 In
 In
-LJ
-Ee
-Ee
-Ee
+In
+In
+lr
+lr
 Ee
 Ee
 Ee
@@ -12205,17 +12247,17 @@ jV
 jV
 LJ
 Ee
-LJ
-LJ
-LJ
-LJ
-LJ
-LJ
-LJ
-LJ
-Ee
-LJ
-Ee
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
 Ee
 LJ
 LJ
@@ -12296,9 +12338,9 @@ Ee
 Ee
 Ee
 Ee
-LJ
-LJ
-LJ
+Ee
+Ee
+Ee
 LJ
 cf
 cf
@@ -12379,9 +12421,9 @@ LJ
 LJ
 LJ
 LJ
-cf
-cf
-cf
+LJ
+LJ
+LJ
 cf
 cf
 cf
@@ -14492,7 +14534,7 @@ YQ
 TH
 uE
 Tt
-Uj
+vd
 Tt
 Tt
 Tt
@@ -14586,9 +14628,9 @@ sw
 NF
 iE
 hs
-dg
-dg
-dg
+Gk
+Gk
+Gk
 Wp
 sI
 RH
@@ -14668,9 +14710,9 @@ ya
 wJ
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 uM
@@ -14750,9 +14792,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -14832,9 +14874,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -14914,9 +14956,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -14996,9 +15038,9 @@ ya
 CV
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15078,9 +15120,9 @@ Vv
 eI
 RH
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 uM
@@ -15406,9 +15448,9 @@ qS
 Dq
 YT
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15488,9 +15530,9 @@ ya
 wJ
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15527,7 +15569,7 @@ UI
 Az
 CE
 CE
-ZZ
+Ex
 CE
 CE
 ZZ
@@ -15562,7 +15604,7 @@ nY
 wk
 oz
 FN
-Pt
+Ua
 et
 Az
 JM
@@ -15570,9 +15612,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15608,9 +15650,9 @@ UI
 UI
 Az
 CE
-ZZ
-ZZ
-ZZ
+Ex
+Ex
+Ex
 CE
 mv
 YY
@@ -15644,7 +15686,7 @@ wk
 wk
 Le
 pF
-FB
+rD
 Xt
 Az
 JM
@@ -15652,9 +15694,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15691,8 +15733,8 @@ UI
 Az
 CE
 it
-ZZ
-ZZ
+Ex
+Ex
 CE
 CE
 YY
@@ -15726,7 +15768,7 @@ nw
 gs
 jC
 ZN
-FB
+rD
 rD
 Az
 JM
@@ -15734,9 +15776,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15816,9 +15858,9 @@ ya
 CV
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15898,9 +15940,9 @@ Vv
 eI
 RH
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -15980,9 +16022,9 @@ pG
 pG
 pG
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16062,9 +16104,9 @@ pG
 pG
 pG
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16144,9 +16186,9 @@ pG
 pG
 pG
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 Zs
@@ -16226,9 +16268,9 @@ qS
 Dq
 YT
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16265,7 +16307,7 @@ qn
 pG
 gK
 Mo
-Mo
+Ii
 Mo
 Mo
 wD
@@ -16308,9 +16350,9 @@ ya
 wJ
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16390,9 +16432,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16472,9 +16514,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16554,9 +16596,9 @@ ya
 yK
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -16636,9 +16678,9 @@ ya
 CV
 RD
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 Zs
@@ -16718,9 +16760,9 @@ MD
 eI
 RH
 ya
-dg
-dg
-dg
+Gk
+Gk
+Gk
 RD
 pG
 pG
@@ -17008,68 +17050,68 @@ Tk
 yk
 oK
 yZ
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 RD
 pG
 ya
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 MH
 ke
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 UI
 UI
 UI
@@ -17090,68 +17132,68 @@ xP
 UV
 oK
 yZ
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 RD
 pG
 ya
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 MH
 ke
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 UI
 UI
 UI
@@ -17172,68 +17214,68 @@ xP
 UV
 oK
 yZ
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 RD
 pG
 ya
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 MH
 ke
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 UI
 UI
 UI
@@ -17254,68 +17296,68 @@ lc
 UV
 oK
 yZ
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 RD
 pG
 ya
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 MH
 ke
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 UI
 UI
 UI
@@ -17336,68 +17378,68 @@ xP
 UV
 oK
 yZ
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 RD
 pG
 ya
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 MH
 ke
-dg
-dg
-dg
-dg
-dg
-dg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 UI
 UI
 UI
@@ -17479,7 +17521,7 @@ eI
 eI
 eI
 qo
-dg
+Gk
 UI
 UI
 UI
@@ -17561,7 +17603,7 @@ pG
 pG
 pG
 ya
-dg
+Gk
 UI
 UI
 UI
@@ -19333,8 +19375,8 @@ pG
 pG
 pG
 pG
-dg
-dg
+Gk
+Gk
 pG
 pG
 pG
@@ -20694,28 +20736,28 @@ UI
 dw
 dw
 dw
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
 dw
 dw
 dw
 dw
 dw
 dw
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
 dw
 dw
 dw
@@ -20776,32 +20818,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
-Wy
-Wy
-Kn
-Kn
-Wy
-Wy
-Wy
+EA
+EA
+EA
+KN
+KN
+EA
+EA
+EA
 NG
 NG
 NG
-Wy
+EA
 cL
 gL
-Wy
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
 eF
 eF
 eF
@@ -20858,32 +20900,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 su
 NG
 Ku
-Wy
+EA
 gL
 gL
 OG
 sB
 lv
 qY
-Wy
+EA
 As
 As
 As
@@ -20906,7 +20948,7 @@ vj
 Lw
 Kv
 uf
-dg
+Gk
 yc
 yc
 yc
@@ -20940,32 +20982,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 rg
 NG
 Bv
-Wy
+EA
 gL
 gL
-Wy
+EA
 bJ
 gL
 Oo
-Wy
+EA
 As
 As
 As
@@ -20988,7 +21030,7 @@ Cc
 Jo
 QY
 uf
-dg
+Gk
 yc
 hw
 hw
@@ -21022,32 +21064,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 OF
 BL
 NG
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
 bJ
 gL
 Oo
-Wy
+EA
 gB
 py
 gB
@@ -21070,7 +21112,7 @@ uf
 uf
 uf
 vC
-dg
+Gk
 yc
 hw
 hw
@@ -21104,32 +21146,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
+EA
 NG
 NG
 NG
 Sl
 ng
 TN
-Wy
+EA
 bJ
 gL
 Oo
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21186,32 +21228,32 @@ UI
 dw
 dw
 dw
-Wy
+EA
 Kn
 Kn
 Kn
 Kn
 Kn
 Kn
-Wy
-Kn
-Kn
-Kn
-Kn
-Kn
-Kn
-Wy
+EA
+EA
+KN
+KN
+KN
+KN
+EA
+EA
 dV
 NG
 Ku
-Wy
+EA
 yv
 CQ
-Wy
+EA
 bJ
 MC
 YR
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21266,34 +21308,34 @@ UI
 (10,1,3) = {"
 UI
 dw
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Kn
-Kn
-Kn
-Kn
-Kn
-Kn
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+gL
+gL
+gL
+gL
+gL
+gL
+EA
+EA
 yE
-Wy
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
 bJ
 Gw
 ll
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21348,7 +21390,7 @@ UI
 (11,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
@@ -21375,7 +21417,7 @@ KN
 bJ
 Gw
 ll
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21430,7 +21472,7 @@ UI
 (12,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
@@ -21457,7 +21499,7 @@ YB
 XL
 yn
 Db
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21512,7 +21554,7 @@ UI
 (13,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
@@ -21539,7 +21581,7 @@ KN
 xN
 gQ
 Rz
-Wy
+EA
 Vl
 Vl
 Vl
@@ -21594,34 +21636,34 @@ UI
 (14,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 gL
 gL
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
-Wy
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
+EA
 KN
-Wy
-Wy
+EA
+EA
 Jn
 Jn
 Jn
@@ -21676,14 +21718,14 @@ UI
 (15,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 gL
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -21758,14 +21800,14 @@ UI
 (16,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 gL
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -21840,14 +21882,14 @@ UI
 (17,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 gL
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -21922,14 +21964,14 @@ UI
 (18,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 gL
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -22004,14 +22046,14 @@ UI
 (19,1,3) = {"
 UI
 dw
-Wy
+EA
 gL
 gL
 gL
 gL
 SP
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -22086,14 +22128,14 @@ UI
 (20,1,3) = {"
 UI
 dw
-Wy
-Wy
-zN
-Wy
-Wy
+EA
+EA
+kM
+EA
+EA
 ll
 VA
-Wy
+EA
 dw
 dw
 dw
@@ -22168,14 +22210,14 @@ UI
 (21,1,3) = {"
 UI
 dw
-Wy
-zN
-zN
-zN
-Wy
+EA
+kM
+kM
+kM
+EA
 ll
 VA
-Wy
+EA
 dw
 dw
 dw
@@ -22250,14 +22292,14 @@ UI
 (22,1,3) = {"
 UI
 dw
-Wy
+EA
 rV
-zN
-zN
-Wy
+kM
+kM
+EA
 gL
 gL
-Wy
+EA
 dw
 dw
 dw
@@ -22332,14 +22374,14 @@ UI
 (23,1,3) = {"
 UI
 dw
-Wy
+EA
 Vk
-Wy
-Wy
-Wy
+EA
+EA
+EA
 gL
-Wy
-Wy
+EA
+EA
 dw
 dw
 dw
@@ -22419,7 +22461,7 @@ dw
 dw
 dw
 Cz
-gL
+HS
 Cz
 dw
 dw
@@ -22501,7 +22543,7 @@ Wy
 Wy
 Wy
 Wy
-gL
+HS
 Wy
 Wy
 Wy
@@ -22583,24 +22625,24 @@ Wy
 zN
 zN
 Wy
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 Wy
-Kn
-Kn
-Kn
+BR
+BR
+BR
 WD
 kH
 xk
@@ -22665,24 +22707,24 @@ Wy
 zN
 zN
 zN
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 Wy
-Kn
-Kn
-Kn
+BR
+BR
+BR
 WD
 kH
 Rq
@@ -22744,27 +22786,27 @@ UI
 dw
 dw
 Wy
-rV
+jb
 zN
 Wy
 Wy
 Wy
 Wy
 Wy
-gL
-gL
+HS
+HS
 Wy
 Wy
 Wy
 Wy
 Wy
 Wy
-gL
-gL
+HS
+HS
 Wy
-Kn
-Kn
-Kn
+BR
+BR
+BR
 WD
 WD
 ow
@@ -22829,24 +22871,24 @@ Wy
 Wy
 Wy
 Wy
-gL
-gL
-gL
+HS
+HS
+HS
 Wy
-Kn
-gL
+BR
+HS
 Wy
-gL
-gL
-gL
-gL
-Wy
-Wy
+HS
+HS
+HS
+HS
 Wy
 Wy
-Kn
-Kn
-Kn
+Wy
+Wy
+BR
+BR
+BR
 WD
 gJ
 zA
@@ -22908,27 +22950,27 @@ UI
 dw
 dw
 Wy
-gL
-gL
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
+HS
+HS
 Wy
-Kn
-gL
+BR
+HS
 Wy
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
 Wy
-Kn
-Kn
+BR
+BR
 Wy
-Kn
-Kn
-Kn
+BR
+BR
+BR
 WD
 La
 zA
@@ -22990,27 +23032,27 @@ UI
 dw
 dw
 Wy
-gL
-gL
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
+HS
+HS
 Wy
-gL
-gL
+HS
+HS
 Wy
-gL
-gL
-gL
-gL
+HS
+HS
+HS
+HS
 Wy
-Kn
-Kn
+BR
+BR
 Wy
-Kn
-Kn
-Kn
+BR
+BR
+BR
 WD
 Cn
 RO
@@ -23930,7 +23972,7 @@ dw
 dw
 dw
 dw
-HS
+dg
 dw
 dw
 dw
@@ -24310,33 +24352,33 @@ rl
 NW
 NW
 sv
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Fp
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
 ws
 ws
 ws
@@ -24344,39 +24386,39 @@ ws
 ws
 ws
 ws
-Fp
-dg
-dg
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+YX
+YX
+YX
+YX
+YX
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (48,1,3) = {"
@@ -24392,33 +24434,33 @@ rl
 NW
 NW
 sv
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Fp
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
+YX
+YX
+YX
 wI
 wI
 wI
@@ -24426,39 +24468,39 @@ wI
 wI
 wI
 wI
-Fp
-dg
-dg
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+YX
+YX
+YX
+YX
+YX
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (49,1,3) = {"
@@ -24474,73 +24516,73 @@ rl
 NW
 NW
 sv
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Gc
-Bs
-Hp
-kM
-kM
-kM
-kM
-kM
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
+YX
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
+yL
+yL
+yL
+yL
+yL
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (50,1,3) = {"
@@ -24556,77 +24598,88 @@ rl
 pc
 pc
 Rd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Gc
-Bs
-Hp
-kM
-kM
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
+yL
+yL
 OW
-kM
-kM
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+yL
+yL
+lr
+lr
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (51,1,3) = {"
 UI
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 dg
 dg
 dg
@@ -24648,67 +24701,67 @@ dg
 dg
 dg
 dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
+yL
+yL
+yL
+yL
+yL
+lr
+lr
 Gc
-Bs
-Hp
-kM
-kM
-kM
-kM
-kM
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (52,1,3) = {"
 UI
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 dg
 dg
 dg
@@ -24730,2277 +24783,2266 @@ dg
 dg
 dg
 dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
+yL
+yL
+yL
+yL
+yL
+lr
+lr
 Gc
-Bs
-Hp
-kM
-kM
-kM
-kM
-kM
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (53,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
 vD
-at
+YX
 pH
 mc
 QO
 Bs
 Hp
 Hp
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+lr
+lr
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (54,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Gc
-at
-at
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
 yU
 yR
 WH
 Lk
 ZG
-at
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+lr
+lr
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (55,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-Gc
-Gc
-Gc
-Gc
-Gc
-Gc
-Gc
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+oc
+YX
+lr
+In
+In
+In
+In
 vN
-at
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+lr
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (56,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (57,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (58,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (59,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (60,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (61,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+mH
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (62,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (63,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
+YX
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+Fp
+Fp
+Fp
+Fp
+YX
+lr
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+Gc
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (64,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (65,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+lr
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (66,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (67,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (68,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (69,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (70,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (71,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (72,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (73,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (74,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (75,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (76,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (77,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (78,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (79,1,3) = {"
 UI
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
+dw
 UI
 "}
 (80,1,3) = {"
