@@ -80,9 +80,12 @@
 /turf/open/floor/iron/textured_large,
 /area/kowloon/outside)
 "ak" = (
-/obj/structure/closet/syndicate/resources/everything,
-/turf/open/floor/iron,
-/area/station/commons/dorms/b/z2)
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/station/engineering/main)
 "al" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -96,6 +99,13 @@
 	dir = 1
 	},
 /area/station/commons/dorms/a)
+"ao" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center)
 "ap" = (
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/wood,
@@ -252,6 +262,10 @@
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/catwalk_floor,
 /area/station/commons/dorms/b/z2)
+"bx" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/station/service/bar/backroom)
 "by" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -341,6 +355,7 @@
 /area/station/maintenance/central/lesser)
 "ci" = (
 /obj/effect/turf_decal/tile/blue/full,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/large,
 /area/station/maintenance/department/medical)
 "cj" = (
@@ -532,6 +547,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"du" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing,
+/turf/open/openspace,
+/area/station/engineering/main)
 "dw" = (
 /obj/effect/light_emitter/interlink,
 /turf/open/openspace{
@@ -792,6 +812,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security)
+"fC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
 "fE" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /obj/structure/cable,
@@ -1582,6 +1608,9 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/engineering/gravity_generator)
+"la" = (
+/turf/open/floor/iron/cafeteria,
+/area/station/commons/dorms/b/z2)
 "lc" = (
 /obj/machinery/light/floor,
 /turf/open/floor/iron/dark,
@@ -2185,6 +2214,12 @@
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
+"ph" = (
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
 "pj" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 10
@@ -2450,6 +2485,12 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/large,
 /area/station/medical/treatment_center)
+"qP" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/cafeteria,
+/area/station/commons/dorms/b/z2)
 "qR" = (
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/delivery,
@@ -2490,6 +2531,9 @@
 /area/station/service/bar)
 "rc" = (
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "re" = (
@@ -3075,6 +3119,12 @@
 /obj/effect/spawner/random/vending/colavend,
 /turf/open/floor/iron/smooth_large,
 /area/station/service/cafeteria)
+"vr" = (
+/obj/effect/turf_decal/tile/blue/full,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/large,
+/area/station/maintenance/department/medical)
 "vs" = (
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/wood,
@@ -3314,8 +3364,8 @@
 /area/station/service/library)
 "xb" = (
 /obj/structure/cable,
-/obj/structure/disposalpipe/segment{
-	dir = 6
+/obj/structure/disposalpipe/junction{
+	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
@@ -4768,9 +4818,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "GZ" = (
-/obj/structure/closet/infinite,
-/turf/open/floor/iron,
-/area/station/commons/dorms/b/z2)
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/openspace,
+/area/station/engineering/main)
 "Hf" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -5307,6 +5359,7 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
 "Le" = (
@@ -5467,11 +5520,19 @@
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron/dark,
 /area/station/medical/office)
+"Mu" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/cafeteria,
+/area/station/commons/dorms/b/z2)
 "Mv" = (
 /obj/structure/cable,
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/structure/railing,
 /turf/open/floor/catwalk_floor/iron,
 /area/station/engineering/main)
 "MA" = (
@@ -5611,6 +5672,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical)
+"Nr" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
 "Ns" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 4
@@ -5762,8 +5830,8 @@
 /turf/open/floor/iron,
 /area/station/security)
 "Og" = (
-/obj/structure/cable,
-/turf/open/floor/plastic,
+/obj/structure/ladder,
+/turf/open/floor/catwalk_floor,
 /area/station/maintenance/department/medical)
 "Oh" = (
 /obj/structure/table,
@@ -5863,6 +5931,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"OK" = (
+/obj/structure/cable,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/station/engineering/main)
 "OL" = (
 /obj/structure/disposalpipe/trunk/multiz/down{
 	dir = 8
@@ -5944,6 +6019,11 @@
 /obj/structure/railing,
 /turf/closed/wall/r_wall,
 /area/station/maintenance/central)
+"Py" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center)
 "PA" = (
 /obj/structure/stairs/north,
 /turf/open/floor/iron/stairs,
@@ -6595,6 +6675,13 @@
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/iron/smooth_large,
 /area/station/service/cafeteria)
+"TS" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "TZ" = (
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 8
@@ -6629,10 +6716,11 @@
 	name = "\improper Bar Restrooms"
 	})
 "Ug" = (
-/turf/open/floor/iron/white/smooth_half{
+/obj/structure/railing{
 	dir = 1
 	},
-/area/station/commons/dorms/b/z2)
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "Ui" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/cup/bottle/acidic_buffer{
@@ -6718,8 +6806,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical)
 "Uy" = (
-/turf/open/floor/iron/white/small,
-/area/station/commons/dorms/b/z2)
+/obj/structure/lattice/catwalk,
+/turf/open/openspace,
+/area/station/engineering/main)
 "UB" = (
 /turf/closed/wall,
 /area/station/medical/treatment_center)
@@ -7078,7 +7167,11 @@
 /turf/open/floor/plating,
 /area/station/security/prison)
 "WM" = (
-/turf/open/floor/plastic,
+/obj/structure/disposalpipe/trunk/multiz{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
 /area/station/maintenance/department/medical)
 "WO" = (
 /obj/structure/table/glass,
@@ -7636,13 +7729,13 @@ PQ
 PQ
 PQ
 PQ
-cf
-cf
-cf
-cf
-cf
-cf
-cf
+Bk
+Bk
+Bk
+Bk
+Bk
+Bk
+Bk
 cf
 cf
 cf
@@ -7777,7 +7870,7 @@ SU
 SU
 SU
 SU
-SU
+Bk
 PQ
 PQ
 PQ
@@ -7859,7 +7952,7 @@ SU
 SU
 SU
 SU
-SU
+Bk
 PQ
 PQ
 PQ
@@ -7940,8 +8033,8 @@ SU
 (7,1,1) = {"
 SU
 SU
-SU
-SU
+Bk
+Bk
 PQ
 PQ
 PQ
@@ -8022,8 +8115,8 @@ SU
 (8,1,1) = {"
 SU
 SU
-SU
-SU
+Bk
+Bk
 PQ
 PQ
 PQ
@@ -8104,8 +8197,8 @@ SU
 (9,1,1) = {"
 SU
 SU
-SU
-SU
+Bk
+Bk
 PQ
 PQ
 PQ
@@ -8731,7 +8824,7 @@ bT
 pM
 Hm
 Ck
-WM
+QA
 Hm
 GY
 GY
@@ -8813,7 +8906,7 @@ bT
 pM
 Hm
 Og
-Og
+QA
 Sj
 GY
 ki
@@ -15374,10 +15467,10 @@ pG
 pG
 Hm
 Og
-Og
-Sj
-rc
-rc
+Nr
+vr
+Py
+ao
 Al
 Al
 UB
@@ -16072,12 +16165,12 @@ wD
 wD
 wD
 Mo
+me
 wD
 wD
+me
 wD
 wD
-wD
-GZ
 Mo
 wD
 wD
@@ -16096,7 +16189,7 @@ mw
 Td
 rD
 Ql
-rD
+co
 co
 Le
 JM
@@ -16154,12 +16247,12 @@ wD
 wD
 wD
 Mo
-me
 wD
 wD
 wD
 wD
-ak
+wD
+wD
 Mo
 wD
 wD
@@ -16236,7 +16329,7 @@ wD
 wD
 wD
 Mo
-me
+wD
 wD
 wD
 wD
@@ -16310,19 +16403,19 @@ Mo
 Ii
 Mo
 Mo
-wD
-wD
-wD
+Mo
+Mo
+Mo
 Mo
 wD
 wD
 wD
 Mo
-wD
-wD
-wD
+Mu
+Mu
+qP
 Mo
-Ug
+wD
 Mo
 Mo
 wD
@@ -16390,22 +16483,22 @@ pG
 Az
 Mo
 wD
+Mo
 wD
 wD
-wD
-wD
+Mo
 wD
 Mo
 Qg
 wD
 wD
 Mo
-wD
-wD
-wD
+la
+la
+la
 Mo
-Uy
-Uy
+wD
+wD
 Mo
 wD
 wD
@@ -16472,22 +16565,22 @@ pG
 Az
 Mo
 wD
+Mo
 wD
 wD
-wD
-wD
+Mo
 wD
 Mo
 Mo
 wD
 wD
 Mo
-wD
-wD
-wD
+la
+la
+la
 Mo
-Uy
-Uy
+wD
+wD
 Mo
 wD
 wD
@@ -16553,7 +16646,7 @@ UI
 pG
 Az
 Mo
-Mo
+wD
 Mo
 Mo
 Mo
@@ -17704,7 +17797,7 @@ YJ
 Tm
 Mv
 dZ
-Tm
+OK
 Rw
 oC
 Cb
@@ -21853,7 +21946,7 @@ dw
 dw
 Hm
 Ck
-WM
+ph
 Hm
 tE
 HM
@@ -21934,10 +22027,10 @@ dw
 dw
 dw
 Hm
-WM
-WM
+Og
+fC
 ci
-Qc
+TS
 ki
 ki
 ki
@@ -22098,9 +22191,9 @@ dw
 dw
 dw
 hG
-ki
-ki
-ki
+tE
+HM
+HM
 ki
 ki
 ki
@@ -22180,7 +22273,7 @@ dw
 dw
 dw
 hG
-ki
+Sf
 ki
 ki
 ki
@@ -22262,7 +22355,7 @@ dw
 dw
 dw
 hG
-ki
+Sf
 ki
 ki
 ki
@@ -22344,7 +22437,7 @@ dw
 dw
 dw
 hG
-ki
+Sf
 ki
 ki
 ki
@@ -22426,7 +22519,7 @@ dw
 dw
 dw
 hG
-ki
+Sf
 ki
 ki
 ki
@@ -22726,7 +22819,7 @@ BR
 BR
 BR
 WD
-kH
+bx
 Rq
 WD
 BD
@@ -24179,11 +24272,11 @@ UI
 rl
 Hg
 Hg
+Ug
+Uy
+Uy
 YJ
-YJ
-YJ
-YJ
-Hg
+GZ
 rl
 TZ
 TZ
@@ -24261,9 +24354,9 @@ UI
 rl
 Hg
 Hg
-YJ
-YJ
-YJ
+Ug
+Uy
+du
 Hg
 Hg
 rl
@@ -24343,9 +24436,9 @@ UI
 rl
 Hg
 Hg
-YJ
-YJ
-YJ
+Ug
+Uy
+du
 Hg
 Hg
 rl
@@ -24425,11 +24518,11 @@ UI
 rl
 Hg
 Hg
-YJ
-YJ
-YJ
-Hg
-Hg
+Ug
+Uy
+Uy
+ak
+ak
 rl
 NW
 NW
@@ -24507,11 +24600,11 @@ UI
 rl
 Hg
 Hg
+Ug
+Uy
 YJ
-YJ
-YJ
-Hg
-Hg
+Uy
+Uy
 rl
 NW
 NW
