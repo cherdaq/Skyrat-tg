@@ -99,6 +99,10 @@
 	dir = 1
 	},
 /area/station/commons/dorms/a)
+"an" = (
+/obj/structure/table,
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "ao" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -522,6 +526,10 @@
 	planetary_atmos = 1
 	},
 /area/kowloon/outside)
+"dh" = (
+/obj/item/house_edge,
+/turf/open/floor/iron,
+/area/station/security)
 "dj" = (
 /obj/structure/table,
 /turf/open/floor/iron,
@@ -624,6 +632,12 @@
 "dX" = (
 /turf/closed/wall/mineral/wood,
 /area/station/service/library)
+"dY" = (
+/obj/effect/light_emitter/interlink,
+/turf/open/floor/iron/smooth{
+	planetary_atmos = 1
+	},
+/area/kowloon/outside)
 "dZ" = (
 /obj/structure/stairs/west,
 /turf/open/floor/iron,
@@ -636,10 +650,26 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/office)
+"ed" = (
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/fancy/coffee_cart_rack{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "ee" = (
 /obj/structure/chair/comfy,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room)
+"eh" = (
+/obj/effect/fullbright,
+/turf/open/floor/iron/checker,
+/area/station/security)
 "ei" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -765,6 +795,14 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
+"fj" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/delivery,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "fn" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -971,9 +1009,6 @@
 /obj/effect/turf_decal/stripes/white/corner{
 	color = "#EFB341"
 	},
-/obj/structure/fence/corner{
-	dir = 8
-	},
 /turf/open/floor/stone{
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
@@ -987,15 +1022,10 @@
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
 "gK" = (
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#EFB341"
-	},
-/obj/structure/fence/corner,
-/turf/open/floor/stone{
-	planetary_atmos = 1;
-	floor_tile = /obj/item/stack/tile/mineral/stone
-	},
-/area/kowloon/outside)
+/obj/effect/spawner/structure/window/hollow/reinforced/end,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/security/prison)
 "gL" = (
 /turf/open/floor/iron,
 /area/station/commons/dorms/a/z3)
@@ -1504,6 +1534,10 @@
 "ki" = (
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"kk" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "kl" = (
 /obj/machinery/deepfryer,
 /obj/effect/turf_decal/siding/wood,
@@ -1819,6 +1853,10 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/tile,
 /area/station/service/library)
+"mO" = (
+/obj/structure/cable,
+/turf/open/floor/iron/large,
+/area/station/security/prison)
 "mP" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -2038,6 +2076,13 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/medical/medbay/central)
+"nW" = (
+/obj/effect/dumpeet_fall,
+/turf/open/floor/stone{
+	planetary_atmos = 1;
+	floor_tile = /obj/item/stack/tile/mineral/stone
+	},
+/area/kowloon/outside)
 "nY" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /obj/effect/turf_decal/bot,
@@ -2142,6 +2187,12 @@
 /obj/structure/table/glass,
 /turf/open/floor/iron/white,
 /area/station/engineering/main)
+"oF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/station/security)
 "oG" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
@@ -2286,24 +2337,17 @@
 /turf/closed/wall,
 /area/station/security/prison)
 "pI" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8;
-	color = "#EFB341"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#EFB341";
-	dir = 4
-	},
-/obj/structure/fence,
-/turf/open/floor/stone{
-	planetary_atmos = 1;
-	floor_tile = /obj/item/stack/tile/mineral/stone
-	},
-/area/kowloon/outside)
+/obj/structure/table,
+/obj/machinery/coffeemaker,
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "pJ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	color = "#EFB341";
 	dir = 1
+	},
+/obj/structure/fence{
+	dir = 4
 	},
 /turf/open/floor/stone{
 	planetary_atmos = 1;
@@ -2358,6 +2402,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"qb" = (
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#EFB341";
+	dir = 6
+	},
+/obj/structure/fence,
+/turf/open/floor/stone{
+	planetary_atmos = 1;
+	floor_tile = /obj/item/stack/tile/mineral/stone
+	},
+/area/station/commons/dorms/b/z2)
 "qc" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -3039,6 +3094,9 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/central)
+"uy" = (
+/turf/open/floor/iron/herringbone,
+/area/station/security)
 "uE" = (
 /turf/closed/wall/mineral/stone,
 /area/station/service/library/lounge)
@@ -3099,6 +3157,12 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/science)
+"uV" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/station/security)
 "uZ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -3199,6 +3263,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/upper)
+"vL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/station/security)
 "vN" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -3477,6 +3547,10 @@
 /obj/effect/spawner/random/trash/hobo_squat,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/upper)
+"xZ" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/checker,
+/area/station/security)
 "ya" = (
 /obj/effect/turf_decal/stripes/white/line{
 	color = "#EFB341"
@@ -3519,6 +3593,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/dorms/a/z3)
+"yo" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "yt" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/chair/sofa/bench/right{
@@ -3983,6 +4063,9 @@
 	planetary_atmos = 1
 	},
 /area/station/medical/medbay/aft)
+"Bb" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/station/security)
 "Be" = (
 /obj/structure/grille/indestructible,
 /turf/open/water,
@@ -4176,6 +4259,10 @@
 /obj/effect/spawner/structure/window/hollow/middle,
 /turf/open/floor/plating,
 /area/station/commons/dorms/b/z3)
+"CB" = (
+/obj/structure/closet/secure_closet/freezer/empty,
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "CC" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -4185,22 +4272,11 @@
 /turf/open/floor/grass,
 /area/station/medical/medbay/lobby)
 "CD" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8;
-	color = "#EFB341"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#EFB341";
-	dir = 4
-	},
-/obj/structure/fence/corner{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/stone{
-	planetary_atmos = 1;
-	floor_tile = /obj/item/stack/tile/mineral/stone
-	},
-/area/kowloon/outside)
+/turf/open/floor/iron/checker,
+/area/station/security)
 "CE" = (
 /turf/closed/wall/mineral/stone,
 /area/station/commons/dorms/a)
@@ -4808,6 +4884,7 @@
 	color = "#EFB341";
 	dir = 6
 	},
+/obj/structure/fence/door,
 /turf/open/floor/stone{
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
@@ -5081,6 +5158,7 @@
 /area/station/service/janitor)
 "Je" = (
 /obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/full,
 /turf/open/floor/iron/large,
 /area/station/security)
 "Jm" = (
@@ -5686,6 +5764,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/office)
+"Nt" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "Nu" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/structure/cable,
@@ -6037,6 +6121,7 @@
 	dir = 8;
 	color = "#EFB341"
 	},
+/obj/structure/fence,
 /turf/open/floor/stone{
 	planetary_atmos = 1;
 	floor_tile = /obj/item/stack/tile/mineral/stone
@@ -6078,17 +6163,8 @@
 /turf/open/openspace,
 /area/station/maintenance/department/crew_quarters/bar)
 "PZ" = (
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#EFB341"
-	},
-/obj/structure/fence{
-	dir = 4
-	},
-/turf/open/floor/stone{
-	planetary_atmos = 1;
-	floor_tile = /obj/item/stack/tile/mineral/stone
-	},
-/area/kowloon/outside)
+/turf/open/floor/iron/white/small,
+/area/station/security)
 "Qb" = (
 /obj/structure/railing{
 	dir = 4
@@ -6895,6 +6971,13 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/plating,
 /area/station/security)
+"Vb" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/end{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/security/prison)
 "Vd" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8;
@@ -6940,6 +7023,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/floor1)
+"Vq" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron/checker,
+/area/station/security/breakroom)
 "Vs" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -7119,6 +7207,12 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/chem_storage)
+"Wv" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/station/security)
 "Ww" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 5
@@ -7290,6 +7384,9 @@
 "XP" = (
 /turf/open/floor/plating,
 /area/station/medical/morgue)
+"XQ" = (
+/turf/open/floor/plating/elevatorshaft,
+/area/station/security/prison)
 "XS" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -15989,10 +16086,10 @@ UI
 UI
 Vv
 gF
-pI
-pI
-pI
-CD
+Rx
+Rx
+Rx
+Rx
 Rx
 UF
 Ny
@@ -16070,9 +16167,9 @@ UI
 (25,1,2) = {"
 UI
 pG
-PZ
+Az
 Mo
-GV
+qb
 PE
 Mo
 Mo
@@ -16152,7 +16249,7 @@ UI
 (26,1,2) = {"
 UI
 pG
-PZ
+Az
 GV
 ck
 rT
@@ -16234,7 +16331,7 @@ UI
 (27,1,2) = {"
 UI
 pG
-PZ
+Az
 pJ
 Ii
 Ii
@@ -16316,7 +16413,7 @@ UI
 (28,1,2) = {"
 UI
 pG
-PZ
+Az
 pJ
 bw
 Ii
@@ -16398,7 +16495,7 @@ UI
 (29,1,2) = {"
 qn
 pG
-gK
+Az
 Mo
 Ii
 Mo
@@ -16841,7 +16938,7 @@ lC
 lC
 YT
 pG
-pG
+nW
 pG
 qS
 lC
@@ -17993,8 +18090,8 @@ gC
 gC
 gC
 gC
-jJ
-jJ
+PZ
+PZ
 YX
 YX
 YX
@@ -18072,20 +18169,20 @@ pG
 gC
 gC
 gC
-OE
-OE
+Nt
+yo
 gC
-jJ
-jJ
+PZ
+PZ
 YX
 jJ
-jJ
-jJ
+uy
+uy
 YX
-jJ
-jJ
-jJ
-jJ
+eh
+eh
+eh
+eh
 YX
 lr
 yL
@@ -18152,22 +18249,22 @@ pG
 pG
 pG
 gC
+CB
 OE
 OE
-OE
-OE
+an
 gC
 YX
-jJ
+Bb
 YX
 jJ
-jJ
-jJ
+uy
+uy
 vw
-jJ
-jJ
-jJ
-jJ
+eh
+eh
+eh
+eh
 YX
 lr
 yL
@@ -18177,9 +18274,9 @@ yL
 yL
 lr
 lr
-Ke
-Ke
-Ke
+XQ
+XQ
+XQ
 lr
 lr
 pG
@@ -18234,22 +18331,22 @@ pG
 pG
 pG
 pd
+ed
 OE
 OE
 OE
 OE
-OE
+uy
+uy
+uy
+uy
+uy
+uy
 jJ
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
+eh
+eh
+eh
+eh
 YX
 lr
 yL
@@ -18259,9 +18356,9 @@ yL
 yL
 lr
 lr
-Ke
-Ke
-Ke
+XQ
+XQ
+XQ
 lr
 lr
 pG
@@ -18316,22 +18413,22 @@ pG
 pG
 pG
 pd
-OE
-OE
-OE
-OE
+pI
+Vq
+kk
+fj
 gC
-jJ
-jJ
-jJ
-jJ
-jJ
-jJ
+uy
+uy
+uy
+uy
+uy
+uy
 YX
-jJ
-jJ
-jJ
-jJ
+eh
+eh
+eh
+eh
 YX
 lr
 yL
@@ -18341,9 +18438,9 @@ yL
 yL
 lr
 lr
-Ke
-Ke
-Ke
+XQ
+XQ
+XQ
 lr
 lr
 pG
@@ -18423,9 +18520,9 @@ kX
 kX
 lr
 lr
-Ke
-Ke
-Ke
+gK
+mO
+Vb
 lr
 lr
 pG
@@ -18505,9 +18602,9 @@ WJ
 WJ
 lr
 lr
-Ke
-Ke
-Ke
+vN
+In
+In
 lr
 lr
 pG
@@ -18810,10 +18907,10 @@ pG
 yQ
 WB
 YX
-jJ
-jJ
-jJ
-jJ
+xZ
+vL
+vL
+Wv
 jJ
 jJ
 YX
@@ -18974,10 +19071,10 @@ pG
 Ja
 jJ
 jJ
-jJ
-jJ
-jJ
-jJ
+uV
+oF
+oF
+CD
 YX
 jJ
 jJ
@@ -23484,7 +23581,7 @@ dw
 dw
 dw
 dw
-dw
+dY
 dw
 dw
 dw
@@ -24304,7 +24401,7 @@ dw
 dw
 dw
 dw
-dw
+dY
 dw
 dw
 dw
@@ -24478,7 +24575,7 @@ ws
 ws
 ws
 ws
-ws
+YX
 YX
 YX
 YX
@@ -24560,7 +24657,7 @@ wI
 wI
 wI
 wI
-wI
+YX
 YX
 YX
 YX
@@ -24635,18 +24732,18 @@ YX
 YX
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
 oc
-oc
-oc
+YX
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 yL
@@ -24717,18 +24814,18 @@ oc
 oc
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
 oc
-oc
-oc
+vw
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 yL
@@ -24799,18 +24896,18 @@ oc
 oc
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
 oc
-oc
-oc
+nG
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 yL
@@ -24881,18 +24978,18 @@ oc
 oc
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
 oc
-oc
-oc
+YX
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 yL
@@ -24963,18 +25060,18 @@ oc
 oc
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
 oc
-oc
-oc
-Fp
-Fp
-Fp
-vD
+YX
+vw
+vw
+vw
+YX
 YX
 pH
 mc
@@ -24984,9 +25081,9 @@ Hp
 Hp
 lr
 lr
-Gc
-Gc
-Gc
+Hp
+mO
+Hp
 lr
 lr
 dw
@@ -25045,7 +25142,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25056,7 +25153,7 @@ oc
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 yU
@@ -25066,9 +25163,9 @@ Lk
 ZG
 lr
 lr
-Gc
-Gc
-Gc
+vN
+In
+In
 lr
 lr
 dw
@@ -25127,18 +25224,18 @@ oc
 oc
 oc
 oc
+YX
 oc
 oc
 oc
 oc
 oc
-oc
-oc
+vD
 oc
 Fp
 Fp
 Fp
-oc
+Fp
 YX
 lr
 In
@@ -25147,8 +25244,8 @@ In
 In
 vN
 lr
-Gc
-Gc
+vN
+vN
 Gc
 Gc
 lr
@@ -25204,16 +25301,16 @@ dw
 dw
 dw
 dw
-mH
+YX
+YX
+oc
+YX
+YX
+YX
 oc
 oc
 oc
-oc
-oc
-oc
-oc
-oc
-oc
+dh
 oc
 oc
 oc
@@ -25226,10 +25323,10 @@ lr
 Gc
 Gc
 Gc
-Gc
-Gc
-Gc
-Gc
+In
+vN
+vN
+vN
 Gc
 Gc
 Gc
@@ -25291,7 +25388,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25373,7 +25470,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25455,7 +25552,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25537,7 +25634,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25619,7 +25716,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25701,7 +25798,7 @@ oc
 oc
 oc
 oc
-oc
+YX
 oc
 oc
 oc
@@ -25783,7 +25880,7 @@ YX
 YX
 oc
 oc
-oc
+YX
 oc
 oc
 oc
