@@ -25,10 +25,18 @@
 /area/kowloon/outside)
 "ae" = (
 /obj/effect/turf_decal/trimline/white/corner,
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
 /area/station/medical/medbay/aft)
+"af" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/ladder,
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/station/medical)
 "ag" = (
 /obj/effect/spawner/random/trash,
 /turf/open/floor/stone{
@@ -324,6 +332,7 @@
 	},
 /area/kowloon/outside)
 "bR" = (
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -510,6 +519,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 4
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -723,8 +733,15 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "eF" = (
-/turf/closed/wall/mineral/stone,
-/area/station/service/library/upper)
+/obj/structure/transport/linear/public,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "kowprison"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/station/security/prison)
 "eI" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8;
@@ -1013,8 +1030,12 @@
 /turf/open/floor/wood/tile,
 /area/station/commons/lounge)
 "gB" = (
-/turf/closed/wall/mineral/wood,
-/area/station/service/library/upper)
+/obj/structure/transport/linear/public,
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/station/security/prison)
 "gC" = (
 /turf/closed/wall,
 /area/station/security/breakroom)
@@ -1044,6 +1065,14 @@
 "gH" = (
 /turf/closed/wall/r_wall,
 /area/station/service/abandoned_gambling_den)
+"gI" = (
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "kowprison"
+	},
+/turf/open/openspace{
+	planetary_atmos = 1
+	},
+/area/station/security/prison)
 "gJ" = (
 /obj/structure/table/wood,
 /obj/structure/reagent_dispensers/beerkeg{
@@ -1298,6 +1327,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 10
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -1357,6 +1387,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"iT" = (
+/obj/machinery/door/window/brigdoor/security/holding/right/directional/north,
+/obj/effect/mapping_helpers/airlock/access/all/security,
+/turf/open/floor/catwalk_floor,
+/area/station/security/prison)
 "iV" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -2351,6 +2386,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 4
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -2412,7 +2448,7 @@
 "py" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood/tile,
-/area/station/service/library/upper)
+/area/station/service/library/lounge)
 "pz" = (
 /obj/structure/easel,
 /obj/item/canvas/nineteen_nineteen,
@@ -2619,6 +2655,16 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/office)
+"qB" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/button/elevator/directional/north{
+	id = "kowprison"
+	},
+/obj/machinery/lift_indicator/directional/north{
+	linked_elevator_id = "kowprison"
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/prison)
 "qC" = (
 /obj/structure/railing{
 	dir = 5
@@ -2846,6 +2892,11 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/service/cafeteria)
+"rO" = (
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/station/security/prison)
 "rR" = (
 /obj/structure/table,
 /obj/machinery/processor{
@@ -2950,6 +3001,7 @@
 /area/station/commons/dorms/a/z3)
 "sv" = (
 /obj/effect/turf_decal/trimline/white/warning,
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -3019,6 +3071,7 @@
 /area/station/commons/vacant_room/office)
 "sU" = (
 /obj/effect/turf_decal/trimline/white/warning,
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -4143,7 +4196,7 @@
 /area/station/maintenance/central/lesser)
 "As" = (
 /turf/open/floor/wood/tile,
-/area/station/service/library/upper)
+/area/station/service/library/lounge)
 "At" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/iron,
@@ -4258,6 +4311,7 @@
 /obj/effect/turf_decal/trimline/white/corner{
 	dir = 8
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -4800,6 +4854,11 @@
 "ER" = (
 /turf/closed/wall/r_wall,
 /area/station/commons/dorms/vacantroom)
+"ET" = (
+/obj/structure/ladder,
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/catwalk_floor,
+/area/station/security/prison)
 "EW" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -4981,6 +5040,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 5
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -5441,7 +5501,7 @@
 "Jn" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/station/service/library/upper)
+/area/station/service/library/lounge)
 "Jo" = (
 /obj/structure/table,
 /obj/effect/spawner/random/bureaucracy/paper,
@@ -5577,12 +5637,20 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 6
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
 /area/station/medical/medbay/aft)
 "Ke" = (
 /turf/open/floor/iron/dark,
+/area/station/security/prison)
+"Ki" = (
+/obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "kowprison"
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/station/security/prison)
 "Kk" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -6224,10 +6292,12 @@
 /turf/open/floor/iron/half,
 /area/station/commons/dorms/a)
 "NW" = (
-/turf/open/floor/iron/smooth{
-	planetary_atmos = 1
+/obj/structure/transport/linear/public,
+/obj/structure/railing{
+	dir = 8
 	},
-/area/kowloon/outside)
+/turf/open/floor/plating/elevatorshaft,
+/area/station/security/prison)
 "Ob" = (
 /turf/closed/wall,
 /area/station/maintenance/department/engineering/lesser)
@@ -6344,6 +6414,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 1
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -6551,6 +6622,13 @@
 "Qp" = (
 /turf/closed/wall/mineral/stone,
 /area/station/hallway/floor2/aft)
+"Qq" = (
+/obj/structure/transport/linear/public,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/station/security/prison)
 "Qu" = (
 /turf/closed/wall,
 /area/station/science/circuits)
@@ -6658,6 +6736,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 6
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -7149,6 +7228,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 8
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -7405,7 +7485,7 @@
 /area/station/security)
 "Vh" = (
 /turf/open/openspace,
-/area/station/service/library/upper)
+/area/station/service/library/lounge)
 "Vi" = (
 /obj/structure/chair/sofa/bench{
 	dir = 4
@@ -7420,7 +7500,7 @@
 /area/station/commons/dorms/a/z3)
 "Vl" = (
 /turf/open/floor/carpet,
-/area/station/service/library/upper)
+/area/station/service/library/lounge)
 "Vn" = (
 /obj/structure/sign/warning/explosives/alt/directional/west,
 /turf/open/floor/iron,
@@ -7552,6 +7632,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 9
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -7789,6 +7870,14 @@
 	floor_tile = /obj/item/stack/tile/mineral/stone
 	},
 /area/kowloon/outside)
+"XJ" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/science/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+/turf/open/floor/iron/large,
+/area/station/medical)
 "XL" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 1
@@ -7802,6 +7891,8 @@
 /turf/open/floor/plating,
 /area/station/medical/morgue)
 "XQ" = (
+/obj/structure/transport/linear/public,
+/obj/structure/railing,
 /turf/open/floor/plating/elevatorshaft,
 /area/station/security/prison)
 "XS" = (
@@ -7824,6 +7915,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 10
 	},
+/obj/effect/light_emitter/interlink,
 /turf/open/floor/iron/smooth{
 	planetary_atmos = 1
 	},
@@ -7870,6 +7962,9 @@
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
 /area/station/medical/morgue)
+"Yp" = (
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
 "Yy" = (
 /obj/structure/ladder,
 /obj/machinery/firealarm/directional/east,
@@ -8003,6 +8098,10 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
 /area/station/security)
+"Zx" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/catwalk_floor,
+/area/station/security/prison)
 "ZD" = (
 /turf/open/water,
 /area/station/maintenance/central)
@@ -10840,7 +10939,7 @@ hG
 hG
 hG
 hG
-pM
+Yp
 Sc
 Hm
 cf
@@ -17401,8 +17500,8 @@ Sq
 Sq
 Sq
 Sq
-pG
-pG
+af
+pV
 pG
 pG
 jS
@@ -17482,9 +17581,9 @@ pG
 pG
 pG
 pG
-pG
-pG
-pG
+pV
+XJ
+pV
 pG
 pG
 jS
@@ -18705,10 +18804,10 @@ In
 In
 lr
 lr
-XQ
-XQ
-XQ
-OK
+gB
+NW
+Qq
+ET
 lr
 lr
 lr
@@ -18787,10 +18886,10 @@ In
 In
 lr
 lr
+eF
+Ki
 XQ
-XQ
-XQ
-OK
+Zx
 lr
 lr
 lr
@@ -18869,10 +18968,10 @@ mc
 mc
 lr
 lr
-XQ
-XQ
-XQ
-OK
+aP
+aP
+aP
+iT
 OK
 lr
 lr
@@ -19033,7 +19132,7 @@ WJ
 WJ
 lr
 lr
-aP
+qB
 aP
 aP
 lr
@@ -21465,9 +21564,9 @@ EA
 EA
 EA
 EA
-eF
-eF
-eF
+uE
+uE
+uE
 uE
 GR
 GR
@@ -21711,9 +21810,9 @@ bJ
 gL
 Oo
 EA
-gB
+Tt
 py
-gB
+Tt
 Tt
 GR
 GR
@@ -22127,8 +22226,8 @@ Vl
 Vl
 Vh
 Vh
-eF
-eF
+uE
+uE
 Vh
 Vh
 Vh
@@ -22209,8 +22308,8 @@ Vl
 Vl
 Vh
 Vh
-eF
-eF
+uE
+uE
 Vh
 Vh
 Vh
@@ -22289,14 +22388,14 @@ Jn
 Jn
 Jn
 Jn
-eF
-eF
-eF
-eF
+uE
+uE
+uE
+uE
 Jn
 Jn
 Jn
-eF
+uE
 dw
 dw
 dw
@@ -24142,13 +24241,13 @@ UI
 "}
 (37,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24213,24 +24312,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (38,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24295,24 +24394,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (39,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24377,24 +24476,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (40,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24459,24 +24558,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (41,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24541,24 +24640,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (42,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24623,24 +24722,24 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (43,1,3) = {"
 UI
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 sv
 dw
 dw
@@ -24705,13 +24804,13 @@ dw
 dw
 dw
 OH
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+dY
+dY
+dY
+dY
+dY
+dY
+dY
 UI
 "}
 (44,1,3) = {"
@@ -24888,8 +24987,8 @@ du
 Hg
 Hg
 rl
-NW
-NW
+dY
+dY
 sv
 dw
 dw
@@ -24970,8 +25069,8 @@ du
 Hg
 Hg
 rl
-NW
-NW
+dY
+dY
 sv
 dw
 dw
@@ -25052,8 +25151,8 @@ YJ
 ak
 ak
 rl
-NW
-NW
+dY
+dY
 sv
 dw
 dw
@@ -25134,8 +25233,8 @@ YJ
 jY
 YJ
 rl
-NW
-NW
+dY
+dY
 sv
 dw
 dw
@@ -25269,7 +25368,7 @@ lr
 Gc
 Gc
 Gc
-OK
+ET
 lr
 lr
 lr
@@ -25348,10 +25447,10 @@ yL
 yL
 lr
 lr
+gI
 Gc
 Gc
-Gc
-OK
+Zx
 lr
 lr
 lr
@@ -25430,10 +25529,10 @@ yL
 yL
 lr
 lr
-Gc
-Gc
-Gc
-OK
+aP
+aP
+aP
+iT
 OK
 lr
 lr
@@ -25594,7 +25693,7 @@ WJ
 WJ
 lr
 lr
-aP
+qB
 aP
 aP
 lr
@@ -25831,10 +25930,10 @@ Fp
 Fp
 Fp
 Fp
-oc
-In
-In
-In
+YX
+lr
+pE
+pE
 pE
 pE
 pE
@@ -25915,9 +26014,9 @@ Fp
 Fp
 YX
 lr
-In
-In
-lr
+Ke
+Ke
+Ke
 lr
 lr
 lr
@@ -25997,10 +26096,10 @@ Fp
 Fp
 YX
 lr
-In
-In
+Ke
+Ke
+Ke
 lr
-In
 In
 In
 In
@@ -26079,10 +26178,10 @@ Fp
 Fp
 YX
 lr
-In
-In
+Ke
+Ke
+Ke
 lr
-In
 In
 In
 In
@@ -26162,9 +26261,9 @@ Fp
 YX
 lr
 lr
-In
+rO
 lr
-In
+lr
 In
 In
 In
@@ -26246,13 +26345,13 @@ lr
 In
 In
 lr
+lr
 In
 In
-In
-In
-In
-In
-In
+lr
+lr
+lr
+lr
 lr
 lr
 lr
@@ -26328,10 +26427,10 @@ lr
 In
 In
 lr
-In
-In
-In
-In
+lr
+lr
+lr
+lr
 lr
 lr
 lr
