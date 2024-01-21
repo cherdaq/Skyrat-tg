@@ -2628,6 +2628,14 @@
 /obj/structure/disposalpipe/trunk/multiz,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/upper)
+"qt" = (
+/obj/machinery/door/airlock/research/glass{
+	name = "Science-to-Medbay"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/medical,
+/obj/effect/mapping_helpers/airlock/access/any/science,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "qu" = (
 /turf/open/floor/plating/rust,
 /area/station/asteroid)
@@ -5242,6 +5250,15 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/iron,
 /area/station/commons/dorms/vacantroom)
+"Hd" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
+/obj/structure/sign/directions/science/directional/west{
+	dir = 2
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "Hf" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7996,6 +8013,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"Yj" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/obj/structure/sign/directions/medical/directional/east,
+/turf/open/floor/iron/white,
+/area/station/science)
 "Yk" = (
 /turf/open/floor/iron/dark/side{
 	dir = 10
@@ -9428,7 +9452,7 @@ hG
 hG
 hG
 hG
-ki
+qt
 mh
 mh
 mh
@@ -9508,7 +9532,7 @@ Tn
 Tn
 Tn
 mu
-ki
+Qj
 ki
 ki
 mh
@@ -15905,7 +15929,7 @@ Jm
 Kk
 kw
 yc
-Jm
+Yj
 Kk
 Pf
 VN
@@ -16068,7 +16092,7 @@ UB
 xm
 NQ
 HM
-qT
+Hd
 oU
 NI
 Uu
