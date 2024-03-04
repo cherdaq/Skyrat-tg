@@ -690,9 +690,8 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "eh" = (
-/obj/effect/fullbright,
-/turf/open/floor/iron/checker,
-/area/station/security)
+/turf/open/floor/wood,
+/area/station/commons/dorms/b/z2)
 "ei" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -1285,6 +1284,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical)
+"ic" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station/science)
 "id" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1305,6 +1310,8 @@
 /turf/open/floor/iron/textured_large,
 /area/kowloon/outside)
 "ih" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
 "ik" = (
@@ -1839,8 +1846,8 @@
 	},
 /area/kowloon/outside)
 "lE" = (
-/turf/open/floor/iron/large,
-/area/station/science)
+/turf/open/floor/iron/white/small,
+/area/station/commons/dorms/b/z2)
 "lG" = (
 /turf/open/floor/plating,
 /area/station/hallway/floor1)
@@ -1915,7 +1922,7 @@
 /area/station/maintenance/department/engineering/lesser)
 "me" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/iron,
+/turf/open/floor/wood,
 /area/station/commons/dorms/b/z2)
 "mh" = (
 /turf/closed/wall,
@@ -2226,9 +2233,6 @@
 "nY" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /obj/effect/turf_decal/bot,
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable,
-/obj/structure/cable,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
 "oa" = (
@@ -2916,6 +2920,11 @@
 	dir = 8
 	},
 /area/station/security/prison)
+"rP" = (
+/turf/open/floor/iron/white/smooth_half{
+	dir = 1
+	},
+/area/station/commons/dorms/b/z2)
 "rR" = (
 /obj/structure/table,
 /obj/machinery/processor{
@@ -6153,8 +6162,11 @@
 /turf/open/floor/engine,
 /area/station/science/explab)
 "MX" = (
-/turf/open/floor/iron/cafeteria,
-/area/kowloon/outside)
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/station/science)
 "MY" = (
 /obj/structure/cable,
 /obj/machinery/power/floodlight,
@@ -6980,8 +6992,11 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms/a)
 "Se" = (
-/turf/open/floor/plating,
-/area/station/commons/dorms/a)
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 9
+	},
+/turf/open/floor/iron/white,
+/area/station/science)
 "Sf" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -8864,9 +8879,9 @@ XV
 oi
 gn
 Jk
-Ce
-Kt
-Ce
+Qy
+Qy
+Qy
 yc
 VN
 VN
@@ -8947,7 +8962,7 @@ oi
 gn
 Jk
 JD
-EX
+HP
 HP
 HP
 VN
@@ -15264,20 +15279,20 @@ yc
 hw
 hw
 hw
+Kt
+Se
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+HP
+Fj
 yc
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
 VN
 VN
 VN
@@ -15346,22 +15361,22 @@ yc
 hw
 hw
 hw
+Kt
+MX
+Pf
+Kk
+Kk
+ic
+VN
+VN
+VN
+VN
+VN
+VN
+hP
 yc
 VN
 VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-VN
-yc
 VN
 yc
 pG
@@ -15433,18 +15448,18 @@ yc
 SX
 yc
 yc
+Jm
+Kk
+Pf
+Kk
+ic
 VN
 VN
-VN
-VN
-VN
-VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-lE
 yc
 pG
 pG
@@ -15468,8 +15483,8 @@ CE
 CE
 fg
 CE
-Se
-Se
+Cs
+Cs
 CE
 CE
 ZZ
@@ -15519,14 +15534,14 @@ yc
 yc
 ln
 yc
+jU
 VN
 VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -15601,14 +15616,14 @@ JD
 HP
 VH
 yc
+jU
 VN
 VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -15683,14 +15698,14 @@ jU
 VN
 hP
 yc
+jU
 VN
 VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -15765,14 +15780,14 @@ qy
 VN
 hP
 yc
+jU
 VN
 VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -15847,14 +15862,14 @@ qy
 VN
 hP
 yc
+jU
 VN
 VN
-VN
-VN
+hP
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -15932,11 +15947,11 @@ yc
 Yj
 Kk
 Pf
-VN
+kw
+yc
 VN
 VN
 yc
-pG
 pG
 pG
 pG
@@ -16863,11 +16878,11 @@ wD
 wD
 Mo
 me
-wD
-wD
-wD
-wD
-wD
+eh
+eh
+eh
+eh
+eh
 Mo
 wD
 wD
@@ -16944,12 +16959,12 @@ wD
 wD
 wD
 Mo
-wD
-wD
-wD
-wD
-wD
-wD
+eh
+eh
+eh
+eh
+eh
+eh
 Mo
 wD
 wD
@@ -17026,12 +17041,12 @@ wD
 wD
 wD
 Mo
-wD
-wD
-wD
-wD
-wD
-wD
+eh
+eh
+eh
+eh
+eh
+eh
 Kb
 wD
 wD
@@ -17112,7 +17127,7 @@ Mu
 Mu
 qP
 Mo
-wD
+rP
 Mo
 Mo
 wD
@@ -17194,8 +17209,8 @@ wN
 la
 la
 Mo
-wD
-wD
+lE
+lE
 Mo
 wD
 wD
@@ -17276,8 +17291,8 @@ wj
 la
 la
 Mo
-wD
-wD
+lE
+lE
 Mo
 wD
 wD
@@ -18779,10 +18794,10 @@ jJ
 uy
 uy
 YX
-eh
-eh
-eh
-eh
+jJ
+jJ
+jJ
+jJ
 YX
 lr
 In
@@ -18861,10 +18876,10 @@ jJ
 uy
 uy
 vw
-eh
-eh
-eh
-eh
+jJ
+jJ
+jJ
+jJ
 YX
 lr
 In
@@ -18943,10 +18958,10 @@ uy
 uy
 uy
 jJ
-eh
-eh
-eh
-eh
+jJ
+jJ
+jJ
+jJ
 YX
 lr
 In
@@ -19025,10 +19040,10 @@ uy
 uy
 uy
 YX
-eh
-eh
-eh
-eh
+jJ
+jJ
+jJ
+jJ
 YX
 lr
 mc
@@ -21072,7 +21087,7 @@ pG
 pG
 pG
 pG
-MX
+pG
 pG
 pG
 pG
@@ -21986,9 +22001,9 @@ dw
 dw
 dw
 yc
-Ce
-Kt
-Ce
+Qy
+Qy
+Qy
 yc
 VN
 VN
@@ -22069,7 +22084,7 @@ dw
 dw
 Ce
 JD
-EX
+HP
 HP
 HP
 VN
