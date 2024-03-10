@@ -524,7 +524,7 @@
 	log_message("points at [pointing_at]", LOG_EMOTE)
 	visible_message("<span class='infoplain'>[span_name("[src]")] points at [pointing_at].</span>", span_notice("You point at [pointing_at]."))
 
-/mob/living/verb/succumb(whispered as null)
+/mob/living/verb/succumb(whispered as num|null)
 	set hidden = TRUE
 	if (!CAN_SUCCUMB(src))
 		if(HAS_TRAIT(src, TRAIT_SUCCUMB_OVERRIDE))
@@ -773,10 +773,10 @@
 /mob/living/get_contents()
 	var/list/ret = list()
 	ret |= contents //add our contents
-	for(var/atom/iter_atom as anything in ret.Copy()) //iterate storage objects
-		iter_atom.atom_storage?.return_inv(ret)
-	for(var/obj/item/folder/F in ret.Copy()) //very snowflakey-ly iterate folders
-		ret |= F.contents
+	for(var/atom/iter_atom as anything in ret) //iterate storage objects
+		ret |= iter_atom.atom_storage?.return_inv()
+	for(var/obj/item/folder/folder in ret) //very snowflakey-ly iterate folders
+		ret |= folder.contents
 	return ret
 
 /**
@@ -1051,8 +1051,11 @@
 		var/mob/living/L = pulledby
 		L.set_pull_offsets(src, pulledby.grab_state)
 
-	if(active_storage && !((active_storage.parent?.resolve() in important_recursive_contents?[RECURSIVE_CONTENTS_ACTIVE_STORAGE]) || CanReach(active_storage.parent?.resolve(),view_only = TRUE)))
-		active_storage.hide_contents(src)
+	if(active_storage)
+		var/storage_is_important_recurisve = (active_storage.parent in important_recursive_contents?[RECURSIVE_CONTENTS_ACTIVE_STORAGE])
+		var/can_reach_active_storage = CanReach(active_storage.parent, view_only = TRUE)
+		if(!storage_is_important_recurisve && !can_reach_active_storage)
+			active_storage.hide_contents(src)
 
 	if(body_position == LYING_DOWN && !buckled && prob(getBruteLoss()*200/maxHealth))
 		makeTrail(newloc, T, old_direction)
@@ -1651,11 +1654,6 @@ GLOBAL_LIST_EMPTY(fire_appearances)
 
 	return fire_status.ignite(silent)
 
-/mob/living/proc/update_fire()
-	var/datum/status_effect/fire_handler/fire_stacks/fire_stacks = has_status_effect(/datum/status_effect/fire_handler/fire_stacks)
-	if(fire_stacks)
-		fire_stacks.update_overlay()
-
 /**
  * Extinguish all fire on the mob
  *
@@ -1663,7 +1661,7 @@ GLOBAL_LIST_EMPTY(fire_appearances)
  * Signals the extinguishing.
  */
 /mob/living/proc/extinguish_mob()
-	if(HAS_TRAIT(src, TRAIT_PERMANENTLY_ONFIRE)) //The everlasting flames will not be extinguished
+	if(HAS_TRAIT(src, TRAIT_NO_EXTINGUISH)) //The everlasting flames will not be extinguished
 		return
 	var/datum/status_effect/fire_handler/fire_stacks/fire_status = has_status_effect(/datum/status_effect/fire_handler/fire_stacks)
 	if(!fire_status || !fire_status.on_fire)
@@ -1682,13 +1680,13 @@ GLOBAL_LIST_EMPTY(fire_appearances)
 
 /mob/living/proc/adjust_fire_stacks(stacks, fire_type = /datum/status_effect/fire_handler/fire_stacks)
 	if(stacks < 0)
-		if(HAS_TRAIT(src, TRAIT_PERMANENTLY_ONFIRE)) //You can't reduce fire stacks of the everlasting flames
+		if(HAS_TRAIT(src, TRAIT_NO_EXTINGUISH)) //You can't reduce fire stacks of the everlasting flames
 			return
 		stacks = max(-fire_stacks, stacks)
 	apply_status_effect(fire_type, stacks)
 
 /mob/living/proc/adjust_wet_stacks(stacks, wet_type = /datum/status_effect/fire_handler/wet_stacks)
-	if(HAS_TRAIT(src, TRAIT_PERMANENTLY_ONFIRE)) //The everlasting flames will not be extinguished
+	if(HAS_TRAIT(src, TRAIT_NO_EXTINGUISH)) //The everlasting flames will not be extinguished
 		return
 	if(stacks < 0)
 		stacks = max(fire_stacks, stacks)
@@ -1766,19 +1764,18 @@ GLOBAL_LIST_EMPTY(fire_appearances)
 	ignite_mob()
 
 /**
- * Sets fire overlay of the mob.
+ * Gets the fire overlay to use for this mob
  *
- * Vars:
+ * Args:
  * * stacks: Current amount of fire_stacks
  * * on_fire: If we're lit on fire
- * * last_icon_state: Holds last fire overlay icon state, used for optimization
- * * suffix: Suffix for the fire icon state for special fire types
  *
- * This should return last_icon_state for the fire status efect
+ * Return a mutable appearance, the overlay that will be applied.
  */
 
-/mob/living/proc/update_fire_overlay(stacks, on_fire, last_icon_state, suffix = "")
-	return last_icon_state
+/mob/living/proc/get_fire_overlay(stacks, on_fire)
+	RETURN_TYPE(/mutable_appearance)
+	return null
 
 /**
  * Handles effects happening when mob is on normal fire
@@ -2725,3 +2722,20 @@ GLOBAL_LIST_EMPTY(fire_appearances)
 		end_look_down()
 	else
 		look_down()
+
+/**
+ * Totals the physical cash on the mob and returns the total.
+ */
+/mob/living/verb/tally_physical_credits()
+	//Here is all the possible non-ID payment methods.
+	var/list/counted_money = list()
+	var/physical_cash_total = 0
+	for(var/obj/item/credit as anything in typecache_filter_list(get_all_contents(), GLOB.allowed_money)) //Coins, cash, and credits.
+		physical_cash_total += credit.get_item_credit_value()
+		counted_money += credit
+
+	if(is_type_in_typecache(pulling, GLOB.allowed_money)) //Coins(Pulled).
+		var/obj/item/counted_credit = pulling
+		physical_cash_total += counted_credit.get_item_credit_value()
+		counted_money += counted_credit
+	return round(physical_cash_total)
