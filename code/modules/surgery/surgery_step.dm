@@ -98,8 +98,10 @@
 	if(check_morbid_curiosity(user, tool, surgery))
 		speed_mod *= SURGERY_SPEED_MORBID_CURIOSITY
 
+	/* SKYRAT EDIT START - Worked in with reward buffs below
 	if(HAS_TRAIT(target, TRAIT_ANALGESIA))
 		speed_mod *= SURGERY_SPEED_TRAIT_ANALGESIA
+	*/ // SKYRAT EDIT END
 
 	var/implement_speed_mod = 1
 	if(implement_type) //this means it isn't a require hand or any item step.
@@ -112,10 +114,13 @@
 	fail_prob = min(max(0, modded_time - (time * SURGERY_SLOWDOWN_CAP_MULTIPLIER)),99)//if modded_time > time * modifier, then fail_prob = modded_time - time*modifier. starts at 0, caps at 99
 	modded_time = min(modded_time, time * SURGERY_SLOWDOWN_CAP_MULTIPLIER)//also if that, then cap modded_time at time*modifier
 
+	if(iscyborg(user))//any immunities to surgery slowdown should go in this check.
+		modded_time = time * tool.toolspeed
+
 	var/was_sleeping = (target.stat != DEAD && target.IsSleeping())
 
 	// Skyrat Edit Addition - reward for doing surgery on calm patients, and for using surgery rooms(ie. surgerying alone)
-	if(was_sleeping || HAS_TRAIT(target, TRAIT_NUMBED) || target.stat == DEAD)
+	if(was_sleeping || HAS_TRAIT(target, TRAIT_ANALGESIA) || target.stat == DEAD)
 		modded_time *= SURGERY_SPEEDUP_AREA
 		to_chat(user, span_notice("You are able to work faster due to the patient's calm attitude!"))
 	var/quiet_enviromnent = TRUE
@@ -126,10 +131,6 @@
 	if(quiet_enviromnent)
 		modded_time *= SURGERY_SPEEDUP_AREA
 		to_chat(user, span_notice("You are able to work faster due to the quiet environment!"))
-	// Skyrat Edit End
-	// Skyrat Edit: Cyborgs are no longer immune to surgery speedups.
-	//if(iscyborg(user))//any immunities to surgery slowdown should go in this check.
-		//modded_time = time
 	// Skyrat Edit End
 
 	if(do_after(user, modded_time, target = target, interaction_key = user.has_status_effect(/datum/status_effect/hippocratic_oath) ? target : DOAFTER_SOURCE_SURGERY)) //If we have the hippocratic oath, we can perform one surgery on each target, otherwise we can only do one surgery in total.
@@ -285,10 +286,15 @@
 	if(target.stat < UNCONSCIOUS)
 		if(HAS_TRAIT(target, TRAIT_ANALGESIA))
 			to_chat(target, span_notice("You feel a dull, numb sensation as your body is surgically operated on."))
-		else
+		// SKYRAT EDIT BEGIN - Mood events from surgeries added
+			target.add_mood_event("mild_surgery", /datum/mood_event/mild_surgery)
+		else if(!mechanical_surgery)
 			to_chat(target, span_userdanger(pain_message))
-			if(prob(30) && !mechanical_surgery)
+			target.add_mood_event("severe_surgery", /datum/mood_event/severe_surgery)
+			if(prob(30))
 				target.emote("scream")
+		// SKYRAT EDIT END
+
 
 #undef SURGERY_SPEED_TRAIT_ANALGESIA
 #undef SURGERY_SPEED_DISSECTION_MODIFIER
